@@ -236,6 +236,10 @@ def build_all():
         'AIプレゼン': 'ai-presentation',
         'AI翻訳': 'ai-translation',
         'AIチャットボット': 'ai-chatbot',
+        'server_comparison': 'server-comparison',
+        'vpn_comparison': 'vpn-comparison',
+        'レンタルサーバー': 'server-comparison',
+        'VPN': 'vpn-comparison',
         'Claude_vs': 'claude-vs-chatgpt',
     }
 
