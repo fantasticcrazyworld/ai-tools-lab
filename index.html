@@ -4,22 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Tools Lab | AIツール比較・レビューサイト</title>
-    <meta name="description" content="AIライティング、画像生成、コード生成など、最新AIツールを徹底比較。準備中です。">
+    <meta name="description" content="AIライティング、画像生成、コード生成、レンタルサーバー、VPNなど、最新ツールを徹底比較。料金・機能・メリット・デメリットを公式情報に基づいてレビュー。">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Helvetica Neue', 'Noto Sans JP', sans-serif; background: linear-gradient(135deg, #1e3a5f, #2563eb); color: #fff; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
-        .container { text-align: center; padding: 40px 20px; }
-        h1 { font-size: 2.5em; margin-bottom: 16px; }
-        p { font-size: 1.1em; opacity: 0.8; margin-bottom: 32px; }
-        .badge { background: rgba(255,255,255,0.15); padding: 8px 20px; border-radius: 20px; font-size: 0.9em; }
+        body { font-family: 'Helvetica Neue', 'Noto Sans JP', sans-serif; color: #333; line-height: 1.8; }
+        header { background: #fff; border-bottom: 2px solid #2563eb; padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+        .header-inner { max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5em; font-weight: 800; color: #2563eb; text-decoration: none; }
+        .logo span { color: #333; }
+        nav a { color: #555; text-decoration: none; margin-left: 24px; font-size: 0.95em; font-weight: 500; }
+        nav a:hover { color: #2563eb; }
+        .hero { background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 60px 20px; text-align: center; }
+        .hero h1 { font-size: 2em; margin-bottom: 16px; line-height: 1.4; }
+        .hero p { font-size: 1.1em; opacity: 0.9; max-width: 600px; margin: 0 auto 24px; }
+        .section { max-width: 1100px; margin: 0 auto; padding: 48px 20px; }
+        .section-title { font-size: 1.4em; font-weight: 700; margin-bottom: 8px; color: #1e3a5f; }
+        .section-sub { color: #666; margin-bottom: 24px; font-size: 0.95em; }
+        .articles { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; transition: all 0.2s; background: #fff; }
+        .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }
+        .card-thumb { height: 140px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; }
+        .card-body { padding: 16px; }
+        .card-body h3 { font-size: 0.95em; margin-bottom: 8px; line-height: 1.5; }
+        .card-body h3 a { color: #333; text-decoration: none; }
+        .card-body h3 a:hover { color: #2563eb; }
+        .card-body p { font-size: 0.85em; color: #666; margin-bottom: 8px; }
+        .tag { display: inline-block; background: #eef2ff; color: #2563eb; padding: 2px 10px; border-radius: 12px; font-size: 0.7em; margin-right: 4px; }
+        .tag-new { background: #fef3c7; color: #92400e; }
+        .disclosure { background: #f8fafc; padding: 16px 20px; text-align: center; font-size: 0.8em; color: #888; border-top: 1px solid #e2e8f0; }
+        footer { background: #1e293b; color: #94a3b8; padding: 40px 20px; text-align: center; font-size: 0.85em; }
+        footer a { color: #94a3b8; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 1.5em; }
+            .articles { grid-template-columns: 1fr; }
+            nav a { margin-left: 16px; font-size: 0.85em; }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>AI Tools Lab</h1>
-        <p>AIツール比較・レビューサイト</p>
-        <p>現在、記事の品質チェック中です。<br>近日公開予定。</p>
-        <span class="badge">Coming Soon</span>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">AI Tools <span>Lab</span></a>
+        <nav>
+            <a href="#articles">記事一覧</a>
+            <a href="about.html">サイトについて</a>
+            <a href="privacy.html">プライバシー</a>
+        </nav>
     </div>
+</header>
+
+<section class="hero">
+    <h1>最新ツールを徹底比較<br>あなたに最適なツールが見つかる</h1>
+    <p>AIツール、レンタルサーバー、VPNなど。公式情報に基づいた比較レビューをお届けします。</p>
+</section>
+
+<div class="disclosure">
+    ※当サイトの記事にはアフィリエイト広告が含まれます。各サービスの料金・機能は公式サイトの情報に基づいていますが、最新情報は公式サイトをご確認ください。
+</div>
+
+<section class="section" id="articles">
+    <h2 class="section-title">比較・レビュー記事</h2>
+    <p class="section-sub">公式情報に基づいた比較と、筆者の見解を明確に分けて掲載しています</p>
+    <div class="articles">
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #059669, #10b981);">&#128187;</div>
+            <div class="card-body">
+                <h3><a href="server-comparison.html">レンタルサーバー おすすめ比較【2026年最新】料金・速度・機能を徹底比較</a></h3>
+                <p>エックスサーバー、ConoHa WING、シンレンタルサーバーなど主要5社を公式情報に基づいて比較。</p>
+                <span class="tag tag-new">NEW</span><span class="tag">サーバー</span><span class="tag">比較</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">&#128274;</div>
+            <div class="card-body">
+                <h3><a href="vpn-comparison.html">VPN おすすめ比較【2026年最新】セキュリティ・速度・料金を徹底比較</a></h3>
+                <p>MillenVPN、NordVPN、ExpressVPNの3大VPNを料金・速度・セキュリティで比較。</p>
+                <span class="tag tag-new">NEW</span><span class="tag">VPN</span><span class="tag">セキュリティ</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #2563eb, #3b82f6);">&#9997;</div>
+            <div class="card-body">
+                <h3><a href="ai-writing-comparison.html">AI文章作成ツール比較 2026｜おすすめ7選と選び方を徹底解説</a></h3>
+                <p>ChatGPT、Claude、Geminiなど主要AIライティングツールの料金・機能を比較。</p>
+                <span class="tag">AIツール</span><span class="tag">ライティング</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #059669, #34d399);">&#128260;</div>
+            <div class="card-body">
+                <h3><a href="chatgpt-alternatives.html">ChatGPT代替ツールおすすめ7選｜用途別の選び方と比較ガイド</a></h3>
+                <p>ChatGPT以外のAIツールを探している方に。Claude、Gemini、Perplexityなどを比較。</p>
+                <span class="tag">AIツール</span><span class="tag">ChatGPT</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #dc2626, #f97316);">&#127912;</div>
+            <div class="card-body">
+                <h3><a href="ai-image-generators.html">AI画像生成 無料おすすめ7選！初心者でも使えるツールを徹底比較</a></h3>
+                <p>Midjourney、DALL-E、Stable Diffusionなど無料で使えるAI画像生成ツールを比較。</p>
+                <span class="tag">AIツール</span><span class="tag">画像生成</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #0891b2, #06b6d4);">&#128187;</div>
+            <div class="card-body">
+                <h3><a href="ai-code-generators.html">AIコード生成ツール比較 2026：開発者が選ぶべき最強ツールはどれ？</a></h3>
+                <p>GitHub Copilot、Cursor、Claude Codeなど主要AIコーディングツールを比較。</p>
+                <span class="tag">AIツール</span><span class="tag">コード生成</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-thumb" style="background: linear-gradient(135deg, #d946ef, #a855f7);">&#127909;</div>
+            <div class="card-body">
+                <h3><a href="ai-video-editors.html">AI動画編集ソフト おすすめ7選【2026年最新】選び方と比較ガイド</a></h3>
+                <p>Runway、CapCut、Descript等のAI動画編集ツールを料金・機能で比較。</p>
+                <span class="tag">AIツール</span><span class="tag">動画編集</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 AI Tools Lab. All rights reserved.</p>
+    <p style="margin-top: 8px;"><a href="privacy.html">プライバシーポリシー</a> | <a href="about.html">運営者情報</a></p>
+</footer>
+
 </body>
 </html>
