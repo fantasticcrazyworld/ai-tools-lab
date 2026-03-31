@@ -235,31 +235,28 @@ hr { border:none;border-top:1px solid #e2e8f0;margin:20px 0; }
 <p>本記事の作成にあたり、以下の公式サイトおよび情報源を参照しました。各ツールの最新の料金・機能情報は、必ず公式サイトにてご確認ください。</p>
 
 <li><strong>GitHub Copilot 公式サイト</strong></li>
-   https://github.com/features/copilot
+   <a href="https://github.com/features/copilot" target="_blank" rel="noopener">https://github.com/features/copilot</a>
 
 <li><strong>Cursor 公式サイト</strong></li>
-   https://www.cursor.com/
+   <a href="https://www.cursor.com/" target="_blank" rel="noopener">https://www.cursor.com/</a>
 
 <li><strong>Tabnine 公式サイト</strong></li>
-   https://www.tabnine.com/
+   <a href="https://www.tabnine.com/" target="_blank" rel="noopener">https://www.tabnine.com/</a>
 
 <li><strong>Amazon CodeWhisperer（Amazon Q Developer）公式サイト</strong></li>
-   https://aws.amazon.com/codewhisperer/
+   <a href="https://aws.amazon.com/codewhisperer/" target="_blank" rel="noopener">https://aws.amazon.com/codewhisperer/</a>
 
 <li><strong>Codeium 公式サイト</strong></li>
-   https://codeium.com/
+   <a href="https://codeium.com/" target="_blank" rel="noopener">https://codeium.com/</a>
 
 <li><strong>JetBrains AI Assistant 公式サイト</strong></li>
-   https://www.jetbrains.com/ai/
+   <a href="https://www.jetbrains.com/ai/" target="_blank" rel="noopener">https://www.jetbrains.com/ai/</a>
 
 <li><strong>GitHub Blog（Copilot生産性調査レポート）</strong></li>
-   https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/</article>
+   <a href="https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/" target="_blank" rel="noopener">https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/</a></article>
 <a href="index.html" class="back">← 一覧に戻る</a>
 
-
-<!-- フローティングレビューパネル -->
 <div id="reviewToggle" onclick="togglePanel()" style="position:fixed;bottom:20px;right:20px;background:#f59e0b;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5em;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.3);z-index:200;">&#9998;</div>
-
 <div id="reviewPanel" style="display:none;position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:3px solid #f59e0b;padding:16px;z-index:199;max-height:60vh;overflow-y:auto;box-shadow:0 -4px 20px rgba(0,0,0,0.15);">
 <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
 <h3 style="font-size:1em;color:#1e293b;">レビュー</h3>
@@ -281,47 +278,10 @@ hr { border:none;border-top:1px solid #e2e8f0;margin:20px 0; }
 </div>
 <div id="result" style="margin-top:8px;font-size:0.85em;"></div>
 </div>
-
-<style>
-.rbtn { flex:1;padding:10px;border:none;border-radius:8px;font-size:0.85em;cursor:pointer;font-weight:600;color:#fff; }
-.rbtn:disabled { opacity:0.5; }
-</style>
-
+<style>.rbtn{flex:1;padding:10px;border:none;border-radius:8px;font-size:0.85em;cursor:pointer;font-weight:600;color:#fff;}.rbtn:disabled{opacity:0.5;}</style>
 <script>
-var ARTICLE_ID = "ai-code-generators";
-function togglePanel() {
-  var p = document.getElementById("reviewPanel");
-  var t = document.getElementById("reviewToggle");
-  if (p.style.display === "none") { p.style.display = "block"; t.style.display = "none"; }
-  else { p.style.display = "none"; t.style.display = "flex"; }
-}
-async function submitReview(action) {
-  var feedback = document.getElementById("feedback").value;
-  if (action === "fix" && !feedback.trim()) { alert("指摘事項を入力してください"); return; }
-  if (action === "approve" && !confirm("この記事を承認しますか？")) return;
-  var btns = document.querySelectorAll(".rbtn");
-  btns.forEach(function(b){ b.disabled = true; });
-  var result = document.getElementById("result");
-  result.innerHTML = "<div style='color:#2563eb;'>処理中...</div>";
-  try {
-    var resp = await fetch("/api/review", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({ article_id: ARTICLE_ID, action: action, feedback: feedback })
-    });
-    var data = await resp.json();
-    if (data.success) {
-      var msgs = { approve: "承認しました", fix: "AI修正を開始しました", reject: "差戻ししました" };
-      result.innerHTML = "<div style='color:#10b981;'>" + msgs[action] + "</div>";
-    } else {
-      result.innerHTML = "<div style='color:#ef4444;'>" + (data.error || "エラー") + "</div>";
-      btns.forEach(function(b){ b.disabled = false; });
-    }
-  } catch(e) {
-    result.innerHTML = "<div style='color:#ef4444;'>" + e.message + "</div>";
-    btns.forEach(function(b){ b.disabled = false; });
-  }
-}
+var ARTICLE_ID="ai-code-generators";
+function togglePanel(){var p=document.getElementById("reviewPanel");var t=document.getElementById("reviewToggle");if(p.style.display==="none"){p.style.display="block";t.style.display="none";}else{p.style.display="none";t.style.display="flex";}}
+async function submitReview(action){var feedback=document.getElementById("feedback").value;if(action==="fix"&&!feedback.trim()){alert("指摘事項を入力してください");return;}if(action==="approve"&&!confirm("この記事を承認しますか？"))return;var btns=document.querySelectorAll(".rbtn");btns.forEach(function(b){b.disabled=true;});var result=document.getElementById("result");result.innerHTML="<div style='color:#2563eb;'>処理中...</div>";try{var resp=await fetch("/api/review",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({article_id:ARTICLE_ID,action:action,feedback:feedback})});var data=await resp.json();if(data.success){var msgs={approve:"承認しました",fix:"AI修正を開始しました",reject:"差戻ししました"};result.innerHTML="<div style='color:#10b981;'>"+msgs[action]+"</div>";}else{result.innerHTML="<div style='color:#ef4444;'>"+(data.error||"エラー")+"</div>";btns.forEach(function(b){b.disabled=false;});}}catch(e){result.innerHTML="<div style='color:#ef4444;'>"+e.message+"</div>";btns.forEach(function(b){b.disabled=false;});}}
 </script>
-
 </body></html>

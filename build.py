@@ -18,19 +18,37 @@ def markdown_to_html(md_text: str) -> str:
         return f"__CODE_BLOCK_{len(code_blocks)-1}__"
     html = re.sub(r'```(?:\w+)?\n(.*?)```', save_code, html, flags=re.DOTALL)
 
-    # 見出し
-    html = re.sub(r'^##### (.+)$', r'<h5>\1</h5>', html, flags=re.MULTILINE)
-    html = re.sub(r'^#### (.+)$', r'<h4>\1</h4>', html, flags=re.MULTILINE)
-    html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
-    html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
-    html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+    # 見出し（{#id} アンカー対応）
+    def heading_with_id(m, tag):
+        text = m.group(1).strip()
+        # {#id} を抽出
+        id_match = re.search(r'\s*\{#(\S+)\}\s*$', text)
+        if id_match:
+            anchor_id = id_match.group(1)
+            text = text[:id_match.start()]
+            return f'<{tag} id="{anchor_id}">{text}</{tag}>'
+        return f'<{tag}>{text}</{tag}>'
+
+    html = re.sub(r'^##### (.+)$', lambda m: heading_with_id(m, 'h5'), html, flags=re.MULTILINE)
+    html = re.sub(r'^#### (.+)$', lambda m: heading_with_id(m, 'h4'), html, flags=re.MULTILINE)
+    html = re.sub(r'^### (.+)$', lambda m: heading_with_id(m, 'h3'), html, flags=re.MULTILINE)
+    html = re.sub(r'^## (.+)$', lambda m: heading_with_id(m, 'h2'), html, flags=re.MULTILINE)
+    html = re.sub(r'^# (.+)$', lambda m: heading_with_id(m, 'h1'), html, flags=re.MULTILINE)
 
     # 太字・イタリック
     html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', html)
     html = re.sub(r'\*(.+?)\*', r'<em>\1</em>', html)
 
-    # リンク
+    # リンク（Markdown形式）
     html = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2" target="_blank" rel="noopener">\1</a>', html)
+
+    # 裸のURL（https://... がそのまま書かれている場合）をクリック可能なリンクに変換
+    # ただし既に <a href="..."> 内にあるURLは除外
+    html = re.sub(
+        r'(?<!href=")(?<!">)(https?://[^\s<>\)]+)',
+        r'<a href="\1" target="_blank" rel="noopener">\1</a>',
+        html
+    )
 
     # テーブル
     lines = html.split('\n')
