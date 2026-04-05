@@ -6,264 +6,281 @@
       "search_date": "2026年04月05日",
       "realtime_trends": [
         {
-          "topic": "#SixTONESANN",
-          "description": "日本のXでトレンド入りしているハッシュタグ。",
+          "topic": "#precure",
+          "description": "日本でアニメ関連の話題がXでトレンド入り。",
           "platform": "X",
           "regions": [
             "日本"
           ],
           "category": "エンタメ",
-          "buzz_level": "高"
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFDJBNTQ%2BTAR7AQT7crmOdVHpZsuLTWGdjzWFeCn2itU-wt4nMTSiOczId5kk3o_6rP6dXPUvW6wE0mwTAMArLUtLO7Giwm0k6bIFUNLlj2TOZvy7PdTY4-bw=="
         },
         {
-          "topic": "百合の花",
-          "description": "日本のXで話題になっているトピック。",
-          "platform": "X",
-          "regions": [
-            "日本"
-          ],
-          "category": "その他",
-          "buzz_level": "中"
-        },
-        {
-          "topic": "二度目の人生",
-          "description": "日本のXでトレンド入りしているトピック。",
+          "topic": "ジョージア州",
+          "description": "日本のXで言及されている地域関連の話題。",
           "platform": "X",
           "regions": [
             "日本"
           ],
           "category": "社会",
-          "buzz_level": "中"
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXyckeb5NG-An6rLZ54B7crhd0JotDW41hupNEpVh-i2sDz1OiWoEYpOowXLBYTJaPyRgOXMXdjjPcHxiw4wxF09O_Pa1PrG7g-dTQBnYnLv74afQSDubNfyF_J2OMkyPmy3uQanqtKY9ukNkQmNQQlXadO_-WI6yHquyFEXA1LqPIAEIUG3cgrK4dIzmD51f3_zu57oh8_y9BRp8ioem_F64zY5vAYVAYp6hUW7KUFQvUiB_tVQ3QFTifiwq47FouzIeIbs_eL7m8zd6jjptU8jpBcVUjvPtRq4l7uFM="
         },
         {
-          "topic": "#オールスター感謝祭26春",
-          "description": "日本のXでトレンド入りしているハッシュタグ。",
+          "topic": "Invited Users",
+          "description": "アメリカのXでトレンド入りしているトピック。",
           "platform": "X",
           "regions": [
-            "日本"
-          ],
-          "category": "エンタメ",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "上伊那ぼたん",
-          "description": "日本のXでトレンド入りしているトピック。",
-          "platform": "X",
-          "regions": [
-            "日本"
+            "アメリカ"
           ],
           "category": "その他",
-          "buzz_level": "中"
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER0V5_PtS7JlZOwEQz9I_OKSRucDqYL99ojYw1RpSoAg2aDC-o8yZ-D3n8gG3B4YWN0_6UOAOT1s1y01zAnKd83LtJFzckt61eXdk07wxjblA5DdJ1mxZRzh4kcW4tFVCZIF_u"
         },
         {
-          "topic": "日米Xユーザーの交流",
-          "description": "AI翻訳により、日米のXユーザー間でコンテンツが共有され話題に。",
+          "topic": "PRESALE EVENT",
+          "description": "アメリカのXで複数のプレセール関連ワードがトレンド入り。",
           "platform": "X",
           "regions": [
-            "日本",
-            "アメリカ",
+            "アメリカ"
+          ],
+          "category": "ビジネス",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQER0V5_PtS7JlZOwEQz9I_OKSRucDqYL99ojYw1RpSoAg2aDC-o8yZ-D3n8gG3B4YWN0_6UOAOT1s1y01zAnKd83LtJFzckt61eXdk07wxjblA5DdJ1mxZRzh4kcW4tFVCZIF_u"
+        },
+        {
+          "topic": "Happy Easter",
+          "description": "アメリカのXでイースター関連の話題がトレンド入り。",
+          "platform": "X",
+          "regions": [
+            "アメリカ"
+          ],
+          "category": "社会",
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvQY3y7z7kdKlqQl02linknAmPIci9jF8-7PctzLuId1vsP1G2757vROEDIzrtiGLTukJ8o-jUQ6MdH-KP0V74kwiqKABvrRFbT3rDhbVlK4LkLKMr_2_ROCoi2t8="
+        },
+        {
+          "topic": "Arsenal",
+          "description": "グローバルでサッカーチーム「アーセナル」がトレンド入り。",
+          "platform": "X",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "スポーツ",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyTP74livn68mynLX4IO3Wp0Idva29eqjCX-bPVgL0rKyquvZBQs3SuSikdI6XYlun3f-nxmNfmIX4tNGUmwEj4aT_eP_-A_z1YjW_-bNZ"
+        },
+        {
+          "topic": "#仮面ライダーゼッツ",
+          "description": "グローバルで日本の特撮ヒーロー関連がトレンド入り。",
+          "platform": "X",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "エンタメ",
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyTP74livn68mynLX4IO3Wp0Idva29eqjCX-bPVgL0rKyquvZBQs3SuSikdI6XYlun3f-nxmNfmIX4tNGUmwEj4aT_eP_-A_z1YjW_-bNZ"
+        },
+        {
+          "topic": "Coachella content",
+          "description": "コーチェラ関連のGRWM、ファッション、反応動画が人気。",
+          "platform": "TikTok",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "エンタメ",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERdIX5G-svKrV1UUTZ7-AwYNP6eHobnYQ3UDfNkTcGDC9nT4VR6bdwdOMLWkthlQ3MKXxSBgAoE3Yq66-E9axVxhIuYpPT5a_I_sfy_dAGLVsZJPInS49oAlWpB_sjKKBC2LuSoe9d3C3IyoNOCpBVOug="
+        },
+        {
+          "topic": "Euphoria Season 3 reactions",
+          "description": "ドラマ「ユーフォリア」シーズン3の反応コンテンツが人気。",
+          "platform": "TikTok",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "エンタメ",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERdIX5G-svKrV1UUTZ7-AwYNP6eHobnYQ3UDfNkTcGDC9nT4VR6bdwdOMLWkthlQ3MKXxSBgAoE3Yq66-E9axVxhIuYpPT5a_I_sfy_dAGLVsZJPInS49oAlWpB_sjKKBC2LuSoe9d3C3IyoNOCpBVOug="
+        },
+        {
+          "topic": "Viral Yoga Pose Challenge",
+          "description": "TikTokで流行中の、難易度の高いヨガポーズチャレンジ。",
+          "platform": "TikTok",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "その他",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERdIX5G-svKrV1UUTZ7-AwYNP6eHobnYQ3UDfNkTcGDC9nT4VR6bdwdOMLWkthlQ3MKXxSBgAoE3Yq66-E9axVxhIuYpPT5a_I_sfy_dAGLVsZJPInS49oAlWpB_sjKKBC2LuSoe9d3C3IyoNOCpBVOug="
+        },
+        {
+          "topic": "コメントリアクション連投",
+          "description": "TikTokのコメント欄で写真返信が新しい視覚的コミュニケーションに。",
+          "platform": "TikTok",
+          "regions": [
             "グローバル"
           ],
           "category": "社会",
-          "buzz_level": "高"
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgm71UhkRmcpEa2ntIgaEC2STFf6bLR0JBrubgHuFE9RhpprtZVercvtSORE8EQ1x5Vgx7gx8428JYMvs6-0TF8jOvK5vc7COG9hv0FJ7W5ZIwZ7gCieiGZ0lEcA_nqLuXDg=="
         },
         {
-          "topic": "プライバシーと安全性",
-          "description": "Instagramがティーンアカウントの保護機能を強化。",
-          "platform": "Instagram",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "テック",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "Coachellaコンテンツ",
-          "description": "Coachella関連のGRWM、衣装、反応動画がTikTokで人気。",
-          "platform": "TikTok",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "Euphoria Season 3",
-          "description": "ドラマ「ユーフォリア」シーズン3の反応コンテンツがTikTokで人気。",
-          "platform": "TikTok",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "クリエイティブチャレンジ",
-          "description": "TikTokで「Viral Yoga Pose Challenge」などが流行。",
-          "platform": "TikTok",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "旅行・スローライフ",
-          "description": "Instagramでトロピカルな旅行やスローライフコンテンツが人気。",
-          "platform": "Instagram",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "ライフスタイル",
-          "buzz_level": "中"
-        },
-        {
-          "topic": "AirPods交換トレンド",
-          "description": "InstagramでAirPodsを交換し、音楽で個性を表現するトレンド。",
-          "platform": "Instagram",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ",
-          "buzz_level": "中"
-        },
-        {
-          "topic": "BTS '2.0' Official MV",
-          "description": "BTSのミュージックビデオがYouTubeで世界的に急上昇1位。",
+          "topic": "YouTube急上昇ランキング",
+          "description": "エンタメ、スポーツ、ゲーム、最新ニュースが主な傾向。",
           "platform": "YouTube",
           "regions": [
             "グローバル"
           ],
           "category": "エンタメ",
-          "buzz_level": "高"
+          "buzz_level": "中",
+          "source_url": ""
         },
         {
-          "topic": "NASA Artemis II",
-          "description": "NASAのアルテミスIIミッションが月へ向けて打ち上げ成功。",
-          "platform": "YouTube/ニュース",
+          "topic": "プロ野球関連",
+          "description": "Googleトレンド日本で複数のプロ野球カードが急上昇。",
+          "platform": "Google",
           "regions": [
-            "アメリカ",
+            "日本"
+          ],
+          "category": "スポーツ",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0-td-aZLCBLq7f4imCKehYBoxEZ6jS_2zfE54nwTlwnVZ4SzWylutefUYPFdR6ZZXneRk_5WdILPCeIA3oMCXidV1sK9BIC4Ij3TzJjLBIK_HSebA_bVcWvZoiEef6S_EzN3-KrIpGa6uyA17qVphrk2-V5j90HwWsbsNey3NmuDwPRdig8swmATujGoCGE7hsdXcbWR3I1y4mtaz7JYjyxotyXZvXur900Vbt86z2vgGC_AsD5fDsyuZIQWxOYEbUGXLho4etIzRJAnV0Oi7rGg2OWkjFl_xTSH8JXSoUSg6FkQy"
+        },
+        {
+          "topic": "docomo Starlink Direct",
+          "description": "ドコモがStarlink衛星とスマホの直接通信サービスを開始。",
+          "platform": "ニュース",
+          "regions": [
+            "日本"
+          ],
+          "category": "テック",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQMW38SCq8YhYzB6LXiRq2LGLmHBQEAZtoqSRgJSQR3B-bsY4dgWcIwf4DjQJ3UEdqdWi0Q07PoqAxqVgcGPF0tX8E2TqYRvqqB-JKhhnu-96k7DLBmh9DoZMWoFz69da0RruH3Lp6ldPvDzcJPze9XiOjPklRnOLN7Ga957Tmjfnu"
+        },
+        {
+          "topic": "エッジAI SoM「EP-200N」",
+          "description": "NXP i.MX 95搭載の次世代産業用途向けエッジAI製品。",
+          "platform": "ニュース",
+          "regions": [
             "グローバル"
           ],
           "category": "テック",
-          "buzz_level": "高"
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEt0gcJr7ZFcSieaShwOv8PTPeAsCuS1W9dh8zSnxUwQoVS27wTXDBosz8br1nyknF7VNnOo0j61ojqGyQHTUQuo2ZBgfwaVb3L8vZmObTFqtnYchV-SbtM3eqM_KwLeTZt"
         },
         {
-          "topic": "中国の新型ステルスドローン",
-          "description": "72時間飛行可能なハイブリッド推進ステルスドローンが登場。",
+          "topic": "エンタープライズAIプラットフォーム",
+          "description": "MicrosoftがエンタープライズAIプラットフォームの展開を開始。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
           "category": "テック",
-          "buzz_level": "高"
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-nB9m4Y6mpnI5GH5v5kaGXDkTraAXK_3J24yh-0dXiIlYe66T8KPaWUD1_Iqf7_VbmYhZojCp9LOPZ9nSGiZwea43PuHbwjip0nRE0tK9eZKWCsE-yQ4yLNUxQSiv6MF80QM="
         },
         {
-          "topic": "AI技術の進展と課題",
-          "description": "Nvidiaの新アプリ、Anthropicのソースコード流出、Grok訴訟など。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "テック",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "原油価格の高騰",
-          "description": "中東情勢の緊迫化により原油価格が上昇し、経済に影響。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "ビジネス・経済",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "世界経済の成長予測",
-          "description": "2025年3.0%、2026年3.1%の成長が予測される。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "ビジネス・経済",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "金利上昇とインフレ懸念",
-          "description": "インフレと財政赤字拡大により金利が上昇傾向。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "ビジネス・経済",
-          "buzz_level": "高"
-        },
-        {
-          "topic": "株式市場の動向",
-          "description": "グロース株からバリュー株へのシフト、S&P500は年初来下落。",
-          "platform": "ニュース",
-          "regions": [
-            "アメリカ",
-            "グローバル"
-          ],
-          "category": "ビジネス・経済",
-          "buzz_level": "中"
-        },
-        {
-          "topic": "暗号通貨の規制",
-          "description": "米国で暗号通貨に関する規制の進展が見られる。",
+          "topic": "小売業界のAI主導経営",
+          "description": "米小売業界でAIを活用した経営へのシフトが加速。",
           "platform": "ニュース",
           "regions": [
             "アメリカ"
           ],
-          "category": "ビジネス・経済",
-          "buzz_level": "中"
+          "category": "ビジネス",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRE5FUtiHUkcnyb0rZqaIyfj4dIlXv_6E4Hc7pWJuT8KUr0-B01QzHF7rYvpnk4cH71xhsjIie4fdbd9RMKMq4pXtQMEExLHPEbdHVngbngWnluNMKa1kkTadt6AQHjGXrYqlyIon2_CKxXmvMiA13h9fIBXxCWbk="
+        },
+        {
+          "topic": "タイパ（タイムパフォーマンス）家電",
+          "description": "時間を節約できる小型食洗機やロボット掃除機が人気。",
+          "platform": "EC・物販",
+          "regions": [
+            "日本"
+          ],
+          "category": "EC・物販",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9SMfa441ziiwRPGk8wJuODW-w4JiuEEoFnGuJuW4GZxNK3GlapMLsku5ByBZhCpEMGgCv0C1V268k0gj8ViB6qYtCcQuQxRqlGicPGUkWT6bJQXAHoGpaYXwNMw=="
+        },
+        {
+          "topic": "新生活応援キャンペーン商品",
+          "description": "Nintendo Switch 2、プロジェクター、ロボット掃除機など。",
+          "platform": "EC・物販",
+          "regions": [
+            "日本"
+          ],
+          "category": "EC・物販",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqDxkEVtkxni63r65c7BbZowHHYYeHjTwk_Dfw0JGzdEEG3ExYTvXr8r3oO0EDeUQEPXs5Qh6U02Lz-LTcd42iA5i7cCNsqs34ESQr4kALr-_3CELr0akb4RL4CKHivFo403ESOWVwn63QDQ=="
+        },
+        {
+          "topic": "パーソナライズジュエリー",
+          "description": "2026年にヒットが期待されるトレンド商品。",
+          "platform": "EC・物販",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "EC・物販",
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuI3SvEA9boSePVL_RQ_uyakNqIdkzySnnGEnAIXnv_Jh2bCJ1XOZRLxoyM8-YV28AcENfd8COjAcCAIHdjzPBv2jW6Vcv3aAw9eilEDCnvac9a21y63seTcBG6mKxiGcJgLWSrRoDGiHeLLw6uHOOfIl3qggIf0ueUJznRi4r8IudRSuvLWA95jwYG_bI5ARnCQ=="
         }
       ],
       "country_google_trends": [
         {
           "country": "日本",
           "top_searches": [
-            "リアルタイムトレンド",
-            "ニュース",
-            "エンタメ"
+            "巨人 対 阪神",
+            "ソフトバンク 対 日本ハム",
+            "金曜ロードショー コナン",
+            "ps5 値上げ",
+            "自転車 ヘルメット"
           ]
         },
         {
           "country": "アメリカ",
           "top_searches": [
-            "donald trump",
-            "israel iran war",
-            "inter miami vs austin",
-            "the boys",
-            "AI in search"
+            "リアルタイム検索データが利用可能 (Google Trends US)"
           ]
         },
         {
           "country": "韓国",
           "top_searches": [
-            "リアルタイムトレンド",
-            "ニュース",
-            "エンタメ"
+            "リアルタイム検索データが利用可能 (Google Trends Korea)"
           ]
         },
         {
           "country": "インド",
           "top_searches": [
-            "prithvi shaw",
-            "auqib nabi",
-            "dc बनाम mi",
-            "indians vs kings",
-            "kings vs capitals"
+            "リアルタイム検索データが利用可能 (Google Trends India)"
           ]
         },
         {
           "country": "ヨーロッパ",
           "top_searches": [
-            "Portugal Cuts Fuel Tax",
-            "Israel-Iran war",
-            "エネルギー価格"
+            "リアルタイム検索データが利用可能 (Google Trends Europe)",
+            "Mallorca (バケーション先)"
           ]
+        }
+      ],
+      "overseas_products_not_in_japan": [
+        {
+          "product": "トゲトゲデザインのジュエリー",
+          "trending_country": "シンガポール",
+          "description": "BABYMONSTERも着用するシンガポール発のジュエリーブランド。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuI3SvEA9boSePVL_RQ_uyakNqIdkzySnnGEnAIXnv_Jh2bCJ1XOZRLxoyM8-YV28AcENfd8COjAcCAIHdjzPBv2jW6Vcv3aAw9eilEDCnvac9a21y63seTcBG6mKxiGcJgLWSrRoDGiHeLLw6uHOOfIl3qggIf0ueUJznRi4r8IudRSuvLWA95jwYG_bI5ARnCQ=="
+        },
+        {
+          "product": "寝るときに口が開かないおしゃれなテープ",
+          "trending_country": "不明 (海外)",
+          "description": "美容・健康目的で寝るときに口を閉じるためのテープ。日本での流行に期待。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuI3SvEA9boSePVL_RQ_uyakNqIdkzySnnGEnAIXnv_Jh2bCJ1XOZRLxoyM8-YV28AcENfd8COjAcCAIHdjzPBv2jW6Vcv3aAw9eilEDCnvac9a21y63seTcBG6mKxiGcJgLWSrRoDGiHeLLw6uHOOfIl3qggIf0ueUJznRi4r8IudRSuvLWA95jwYG_bI5ARnCQ=="
+        },
+        {
+          "product": "キノコ狩り (趣味)",
+          "trending_country": "不明 (海外)",
+          "description": "デジタルデトックスにつながる趣味として海外で流行の兆し。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFuI3SvEA9boSePVL_RQ_uyakNqIdkzySnnGEnAIXnv_Jh2bCJ1XOZRLxoyM8-YV28AcENfd8COjAcCAIHdjzPBv2jW6Vcv3aAw9eilEDCnvac9a21y63seTcBG6mKxiGcJgLWSrRoDGiHeLLw6uHOOfIl3qggIf0ueUJznRi4r8IudRSuvLWA95jwYG_bI5ARnCQ=="
         }
       ]
     }
@@ -277,32 +294,14 @@
           "videos": [
             {
               "title": "【地獄耐久】 新春VIPで全キャラ倒すまで終われない配信 ４章 feat. スマブラSP.",
-              "channel": "不明",
+              "channel": "N/A",
               "category": "ゲーム",
               "views_approx": "N/A"
             },
             {
               "title": "🔴【特訓】エンドラRTA『10分切り』連続成功するまで終われません！ 【後夜祭】※枠取り直しました",
-              "channel": "不明",
+              "channel": "N/A",
               "category": "ゲーム",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "恋はきっと急上昇☆-Rock Buster- / のぼる↑ - Covered by しほ",
-              "channel": "Shiho",
-              "category": "音楽",
-              "views_approx": "136K views"
-            },
-            {
-              "title": "T.O.P - \"DESPERADO\" MV",
-              "channel": "不明",
-              "category": "音楽",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "BTS (방탄소년단) '2.0' Official MV",
-              "channel": "HYBE LABELS",
-              "category": "音楽",
               "views_approx": "N/A"
             }
           ]
@@ -317,9 +316,15 @@
               "views_approx": "N/A"
             },
             {
-              "title": "BLACK PANTHER 3 ANNOUNCEMENT.",
-              "channel": "不明",
-              "category": "映画/アニメ",
+              "title": "BLACK PANTHER 3 ANNOUNCEMENT",
+              "channel": "N/A",
+              "category": "エンタメ",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "NCAAW Final Four: South Carolina vs.",
+              "channel": "N/A",
+              "category": "その他",
               "views_approx": "N/A"
             },
             {
@@ -329,15 +334,9 @@
               "views_approx": "N/A"
             },
             {
-              "title": "Key Glock - Loco (Official Music Video)",
-              "channel": "Key Glock",
-              "category": "音楽",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "KRAKEN Official Trailer (2026) New Upcoming Movies 4K.",
-              "channel": "不明",
-              "category": "映画/アニメ",
+              "title": "MAX REACTS: INGRID IS WEIRD - New SF6 Trailer",
+              "channel": "N/A",
+              "category": "ゲーム",
               "views_approx": "N/A"
             }
           ]
@@ -346,33 +345,33 @@
           "country": "韓国",
           "videos": [
             {
+              "title": "BTS (방탄소년단) '2.0' Official MV",
+              "channel": "HYBE LABELS",
+              "category": "音楽",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "마지막 영상 낋여왔습니다.",
+              "channel": "N/A",
+              "category": "その他",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "오랜만에 탑 출격했다가 골드 이렐리아한테 1렙부터 CS 통제 당하고 오열하는 이상호..!",
+              "channel": "이상호",
+              "category": "ゲーム",
+              "views_approx": "N/A"
+            },
+            {
               "title": "AKMU - '소문의 낙원 (Paradise of Rumors)' M/V",
               "channel": "AKMU",
               "category": "音楽",
               "views_approx": "N/A"
             },
             {
-              "title": "BTS (방탄소년단) '2.0' Official MV",
-              "channel": "HYBE LABELS",
+              "title": "Body to Body",
+              "channel": "BTS - Topic",
               "category": "音楽",
-              "views_approx": "15.3M Views"
-            },
-            {
-              "title": "T.O.P - \"DESPERADO\" MV",
-              "channel": "不明",
-              "category": "音楽",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "마지막 영상 낋여왔습니다.",
-              "channel": "不明",
-              "category": "エンタメ",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "[슈퍼걸] 2차 예고편",
-              "channel": "Warner Bros. Korea",
-              "category": "映画/アニメ",
               "views_approx": "N/A"
             }
           ]
@@ -382,32 +381,32 @@
           "videos": [
             {
               "title": "Rama | Namit Malhotra's Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman.",
-              "channel": "不明",
-              "category": "映画/アニメ",
+              "channel": "Sony Music India",
+              "category": "音楽",
               "views_approx": "N/A"
             },
             {
               "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters.",
-              "channel": "不明",
-              "category": "映画/アニメ",
+              "channel": "N/A",
+              "category": "エンタメ",
               "views_approx": "N/A"
             },
             {
               "title": "I Become Police to Arrest Criminal Villagers in Minecraft..",
-              "channel": "不明",
-              "category": "ゲーム",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "LEVEL 1 VS LEVEL 100 MINECRAFT CANNON.",
-              "channel": "不明",
+              "channel": "N/A",
               "category": "ゲーム",
               "views_approx": "N/A"
             },
             {
               "title": "#Raushan Rohi - कमरिया प काटा | #4kvideo #रंगदारी | #Srishti Bharti | #Shivani | Maghi Rangdari Song.",
-              "channel": "不明",
+              "channel": "N/A",
               "category": "音楽",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "Toaster | Official Trailer | Rajkummar Rao, Sanya Malhotra | Netflix India.",
+              "channel": "Netflix India",
+              "category": "エンタメ",
               "views_approx": "N/A"
             }
           ]
@@ -416,33 +415,33 @@
           "country": "グローバル（全世界）",
           "videos": [
             {
-              "title": "T.I. - Trauma Bond (Official Video)",
-              "channel": "T.I.",
-              "category": "音楽",
-              "views_approx": "N/A"
-            },
-            {
-              "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters.",
-              "channel": "不明",
-              "category": "映画/アニメ",
-              "views_approx": "N/A"
-            },
-            {
               "title": "Ella Langley - Choosin' Texas (Official Video)",
               "channel": "Ella Langley",
               "category": "音楽",
               "views_approx": "N/A"
             },
             {
-              "title": "Key Glock - Loco (Official Music Video)",
-              "channel": "Key Glock",
+              "title": "BLACK PANTHER 3 ANNOUNCEMENT",
+              "channel": "N/A",
+              "category": "エンタメ",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "NCAAW Final Four: Texas vs.",
+              "channel": "N/A",
+              "category": "その他",
+              "views_approx": "N/A"
+            },
+            {
+              "title": "T.I. - Trauma Bond (Official Video)",
+              "channel": "T.I.",
               "category": "音楽",
               "views_approx": "N/A"
             },
             {
-              "title": "BTS (방탄소년단) '2.0' Official MV",
-              "channel": "HYBE LABELS",
-              "category": "音楽",
+              "title": "Gutfeld!",
+              "channel": "N/A",
+              "category": "ニュース",
               "views_approx": "N/A"
             }
           ]
@@ -457,20 +456,20 @@
       {
         "title": "コンピュータ音楽入門 [pdf]",
         "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
-        "score": 31,
-        "comments": 4
+        "score": 36,
+        "comments": 10
       },
       {
         "title": "Show HN: GPUを構築するゲーム",
         "url": "https://jaso1024.com/mvidia/",
-        "score": 528,
-        "comments": 140
+        "score": 535,
+        "comments": 142
       },
       {
         "title": "OpenScreenはScreen Studioのオープンソース代替品",
         "url": "https://github.com/siddharthvaddem/openscreen",
-        "score": 124,
-        "comments": 18
+        "score": 130,
+        "comments": 21
       },
       {
         "title": "若者へのアドバイス、私が自分に語る嘘 (2024年)",
@@ -481,68 +480,68 @@
       {
         "title": "LLM Wiki – 「アイデアファイル」の例",
         "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-        "score": 85,
+        "score": 87,
         "comments": 20
       },
       {
         "title": "AWSエンジニアがLinux 7.0でPostgreSQLのパフォーマンスが半減したと報告、修正は容易ではない可能性",
         "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
-        "score": 128,
-        "comments": 31
-      },
-      {
-        "title": "イズセブン",
-        "url": "https://isseven.app/",
-        "score": 32,
-        "comments": 14
+        "score": 132,
+        "comments": 32
       },
       {
         "title": "マイクロソフトは「Copilot」という名前の製品をいくつ持っているのか？",
         "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
-        "score": 444,
-        "comments": 225
-      },
-      {
-        "title": "驚くほどシンプルな自己蒸留がコード生成を改善する",
-        "url": "https://arxiv.org/abs/2604.01193",
-        "score": 556,
-        "comments": 168
+        "score": 448,
+        "comments": 229
       },
       {
         "title": "100以上のClaudeエージェントを並行してテストするケーススタディ",
         "url": "https://imbue.com/product/mngr_part_2/",
-        "score": 12,
+        "score": 16,
         "comments": 4
       },
       {
-        "title": "Show HN: オープンソースで電力不要のPCBハッカソンバッジを作った",
+        "title": "驚くほどシンプルな自己蒸留がコード生成を改善する",
+        "url": "https://arxiv.org/abs/2604.01193",
+        "score": 560,
+        "comments": 168
+      },
+      {
+        "title": "Show HN: Contrapunk – ギター入力からのリアルタイム対位法ハーモニー、Rustで",
+        "url": "https://contrapunk.com/",
+        "score": 18,
+        "comments": 3
+      },
+      {
+        "title": "Show HN: オープンソースで電力不要のPCBハッカソンバッジを作りました",
         "url": "https://github.com/KaiPereira/Overglade-Badges",
-        "score": 58,
+        "score": 59,
         "comments": 8
+      },
+      {
+        "title": "アイデアを却下することはスキルではない",
+        "url": "https://scottlawsonbc.com/post/shooting-down-ideas",
+        "score": 96,
+        "comments": 91
       },
       {
         "title": "Ruckus: iOS向けRacket",
         "url": "https://ruckus.defn.io/",
         "score": 84,
-        "comments": 7
-      },
-      {
-        "title": "アイデアを却下することはスキルではない",
-        "url": "https://scottlawsonbc.com/post/shooting-down-ideas",
-        "score": 94,
-        "comments": 88
+        "comments": 8
       },
       {
         "title": "Show HN: sllm – GPUノードを他の開発者と共有、トークン無制限",
         "url": "https://sllm.cloud",
-        "score": 129,
+        "score": 130,
         "comments": 65
       },
       {
-        "title": "インディーズインターネットインデックス – お気に入りのサイトを投稿してください",
-        "url": "https://iii.social",
-        "score": 108,
-        "comments": 22
+        "title": "Isseven",
+        "url": "https://isseven.app/",
+        "score": 37,
+        "comments": 16
       }
     ]
   },
@@ -555,32 +554,32 @@
         {
           "title": "イランのミサイル猛攻がバーレーンとドバイのAWSデータセンターを破壊 — Amazonは複数のゾーンで「ハードダウン」状態を宣言したと報じられる",
           "url": "https://reddit.com/r/technology/comments/1scgw7u/iranian_missile_blitz_takes_down_aws_data_centers/",
-          "score": 21834,
-          "comments": 1373
+          "score": 22025,
+          "comments": 1380
         },
         {
           "title": "メイン州が新規データセンターを禁止する初の州になろうとしている",
           "url": "https://reddit.com/r/technology/comments/1scbh0f/maine_is_about_to_become_the_first_state_to_ban/",
-          "score": 16609,
+          "score": 16720,
           "comments": 577
         },
         {
-          "title": "オラクルは利益が95%急増した後、最大3万人の従業員をメールで解雇。テクノロジー企業は1日あたり約1,000人の雇用を削減している",
+          "title": "オラクルは95%の利益急増後、最大3万人の従業員をメールで解雇。テック企業は1日あたり約1,000人の雇用を削減している",
           "url": "https://reddit.com/r/technology/comments/1sc8smb/oracle_fired_up_to_30000_workers_via_email_after/",
-          "score": 25461,
-          "comments": 1436
+          "score": 25600,
+          "comments": 1440
         },
         {
-          "title": "衛星企業がイラン戦争報道に役立つ画像の配信を停止、米国政府の要請を理由に挙げる",
+          "title": "衛星企業、イラン戦争報道に役立つ画像の配信を停止、米国政府の要請を理由に",
           "url": "https://reddit.com/r/technology/comments/1scq59s/satellite_company_halts_distribution_of_images/",
-          "score": 1280,
-          "comments": 75
+          "score": 1418,
+          "comments": 79
         },
         {
-          "title": "イランがアブダビの1GWスターゲイトAIデータセンターを爆撃すると脅迫",
+          "title": "イラン、アブダビの1GWスターゲイトAIデータセンターを爆撃すると脅迫",
           "url": "https://reddit.com/r/technology/comments/1sc9h3g/iran_threatens_to_bomb_1gw_stargate_ai_datacenter/",
-          "score": 5811,
-          "comments": 611
+          "score": 5818,
+          "comments": 614
         }
       ]
     },
@@ -592,20 +591,20 @@
         {
           "title": "ハンガリーの主要野党は、来週の選挙で勝利した場合、首相の任期を2期に制限する憲法改正に動くと述べた。これは、現職のヴィクトル・オルバンが二度と首相の座に戻ることを事実上阻止する動きとなる",
           "url": "https://reddit.com/r/worldnews/comments/1sch8f8/hungarys_main_opposition_party_has_said_it_would/",
-          "score": 13620,
-          "comments": 216
+          "score": 13812,
+          "comments": 219
         },
         {
           "title": "イランで行方不明になっていた米軍パイロット、大胆な作戦で数時間後に救出されたと報じられる",
           "url": "https://reddit.com/r/worldnews/comments/1scri1r/us_pilot_missing_in_iran_for_hours_reportedly/",
-          "score": 1617,
-          "comments": 242
+          "score": 2242,
+          "comments": 298
         },
         {
-          "title": "「地獄が降り注ぐ48時間前」：トランプ氏、イランにホルムズ海峡の期限を再確認させる",
+          "title": "「地獄が降り注ぐ48時間前」：トランプ、イランにホルムズ海峡の期限を再認識させる",
           "url": "https://reddit.com/r/worldnews/comments/1scc4lb/48_hours_before_hell_will_rain_down_trump_reminds/",
-          "score": 8770,
-          "comments": 1177
+          "score": 8804,
+          "comments": 1188
         }
       ]
     },
@@ -617,25 +616,25 @@
         {
           "title": "山梨県の列車内で外国人観光客同士の喧嘩が発生",
           "url": "https://reddit.com/r/japan/comments/1scpq26/fight_breaks_out_among_foreign_tourists_on_train/",
-          "score": 37,
+          "score": 42,
           "comments": 16
         },
         {
-          "title": "ストレスを抱える若者が贅沢なコンフォートフードや飲み物を求める中、日本で「罪悪感のある消費」が急増",
+          "title": "ストレスを抱えた若者が贅沢なコンフォートフードや飲み物を求める中、日本で「罪悪感のある消費」がブームに。",
           "url": "https://reddit.com/r/japan/comments/1scfuf8/guilty_consumption_booms_in_japan_as_stressed/",
-          "score": 102,
+          "score": 109,
           "comments": 16
         },
         {
           "title": "桜が少ないことは、木を健康に保つための犠牲を意味することもある",
           "url": "https://reddit.com/r/japan/comments/1sc40q6/less_sakura_sometimes_means_sacrifice_to_keep/",
-          "score": 108,
+          "score": 110,
           "comments": 8
         },
         {
-          "title": "ピザハットジャパン、国内最高級ラーメンの一つを手がけるクリエイターと提携し、ラーメンピザを開発",
+          "title": "ピザハットジャパン、国内最高級ラーメンの一つを考案したクリエイターと提携し、ラーメンピザを開発",
           "url": "https://reddit.com/r/japan/comments/1sc3rtl/pizza_hut_japan_teams_up_with_creator_of_one_of/",
-          "score": 47,
+          "score": 49,
           "comments": 13
         }
       ]
@@ -646,27 +645,27 @@
       "region": "韓国",
       "items": [
         {
-          "title": "1年間韓国の果物を食べ続けた結果、季節ごとの違いがとんでもないことに — 毎月何を食べるべきか（価格付き）",
+          "title": "韓国の果物を丸一年食べたら、季節ごとの違いがとんでもなかった — 毎月何を食べるべきか（値段付き）",
           "url": "https://reddit.com/r/korea/comments/1sc4mxd/i_ate_korean_fruit_for_a_full_year_and_the/",
-          "score": 395,
+          "score": 402,
           "comments": 71
         },
         {
           "title": "これはとても美しい韓国の桜の木です。",
           "url": "https://reddit.com/r/korea/comments/1scdns5/this_is_a_very_beautiful_korean_cherry_blossom/",
-          "score": 39,
+          "score": 38,
           "comments": 1
         },
         {
           "title": "我々は蔚山岩を征服する。",
           "url": "https://reddit.com/r/korea/comments/1sbt8wo/we_conquer_ulsanbawi/",
-          "score": 351,
+          "score": 352,
           "comments": 28
         },
         {
-          "title": "実家の川沿いと故郷の桜は今年とても豊かです",
+          "title": "実家の川辺と故郷の桜は今年とても豊かです",
           "url": "https://reddit.com/r/korea/comments/1sc1qq9/parental_home_riverside_and_hometown_cherry/",
-          "score": 97,
+          "score": 96,
           "comments": 6
         }
       ]
@@ -677,21 +676,21 @@
       "region": "中国",
       "items": [
         {
-          "title": "ルビオ氏、運河での衝突後、パナマ船籍の船を足止めした中国を「いじめ」と非難",
+          "title": "ルビオ、運河での衝突後、パナマ船籍の船を足止めした中国を「いじめ」と非難",
           "url": "https://reddit.com/r/China/comments/1scje1e/rubio_accuses_china_of_bullying_for_holding_up/",
-          "score": 112,
+          "score": 107,
           "comments": 51
         },
         {
           "title": "私たちのひどい医療制度...",
           "url": "https://reddit.com/r/China/comments/1scptzw/our_horrible_healthcare_system/",
-          "score": 13,
-          "comments": 5
+          "score": 17,
+          "comments": 6
         },
         {
           "title": "MetaがAIスタートアップを買収し取引を審査した後、中国がManusの創業者に出国禁止措置",
           "url": "https://reddit.com/r/China/comments/1sc2moz/china_bans_manus_founders_from_leaving_country/",
-          "score": 153,
+          "score": 151,
           "comments": 93
         }
       ]
@@ -704,19 +703,19 @@
         {
           "title": "セルビア情報大臣：「若者は警察が彼らを殴り、殺す権利があることを知らない。」",
           "url": "https://reddit.com/r/europe/comments/1scda4h/serbian_minister_of_information_young_people_are/",
-          "score": 2682,
+          "score": 2698,
           "comments": 137
         },
         {
           "title": "EU加盟がなければ、ポーランドのGDPは現在30%低かっただろう",
           "url": "https://reddit.com/r/europe/comments/1sccuyh/without_eu_accession_polands_gdp_would_currently/",
-          "score": 2100,
-          "comments": 216
+          "score": 2107,
+          "comments": 218
         },
         {
           "title": "ヴィクトル・オルバンが後継者がハンガリーを運営するのを阻止するために仕掛けた罠",
           "url": "https://reddit.com/r/europe/comments/1scdxad/how_viktor_orbán_laid_traps_to_stop_his_successor/",
-          "score": 1692,
+          "score": 1710,
           "comments": 105
         }
       ]
@@ -729,19 +728,19 @@
         {
           "title": "なぜインド人男性は、夫婦間のレイプを犯罪化するという考えにこれほど悩まされるのか？",
           "url": "https://reddit.com/r/india/comments/1sch6f1/why_are_indian_men_so_bothered_by_the_idea_of/",
-          "score": 328,
-          "comments": 302
+          "score": 344,
+          "comments": 306
         },
         {
-          "title": "インドで象が写真撮影のために鮮やかなピンクに塗られ、後に死亡したことで怒りが爆発 — ロシア人写真家は殺害予告を明かす",
+          "title": "インドで象が写真撮影のために鮮やかなピンクに塗られ、後に死亡したことで怒り — ロシア人写真家は殺害予告を明かす",
           "url": "https://reddit.com/r/india/comments/1scfspa/fury_in_india_after_elephant_is_painted_bright/",
-          "score": 292,
-          "comments": 12
+          "score": 303,
+          "comments": 14
         },
         {
-          "title": "「マハカル標準時が必要だ」：教育大臣がグリニッジ標準時の置き換えを要求",
+          "title": "「マハカル標準時が必要だ」：教育大臣、グリニッジ標準時の置き換えを要求",
           "url": "https://reddit.com/r/india/comments/1scb5vu/we_need_mahakal_standard_time_education_minister/",
-          "score": 307,
+          "score": 311,
           "comments": 56
         }
       ]
@@ -754,29 +753,29 @@
         {
           "title": "Amazon、イラン戦争を理由に販売者に3.5%の燃料・物流手数料を課す",
           "url": "https://reddit.com/r/business/comments/1scfao2/amazon_slaps_35_fuel_and_logistics_charge_on/",
-          "score": 401,
-          "comments": 23
+          "score": 410,
+          "comments": 24
         },
         {
-          "title": "Netflixは長年の値上げ分を顧客に返金しなければならない、とイタリアの裁判所が判決 | 消費者団体Movimento Consumatoriは、Netflixが現在の価格を下げなければ提訴すると述べている。",
+          "title": "Netflixは長年の値上げ分を顧客に返金しなければならない、イタリアの裁判所が判決 | 消費者団体Movimento Consumatoriは、Netflixが現在の価格を下げなければ提訴すると述べる。",
           "url": "https://reddit.com/r/business/comments/1sci46b/netflix_must_refund_customers_for_years_of_price/",
           "score": 254,
           "comments": 29
         },
         {
-          "title": "オラクル、大量解雇の最中に数千件のH-1Bビザ申請を提出",
+          "title": "オラクル、大規模解雇の最中に数千件のH-1Bビザ申請を提出",
           "url": "https://reddit.com/r/business/comments/1sbnpx1/oracle_files_thousands_of_h1b_visa_petitions_amid/",
-          "score": 684,
+          "score": 680,
           "comments": 64
         },
         {
-          "title": "裁判が30年前の法的保護、通信品位法第230条を迂回し、Meta、Googleが攻撃にさらされる",
+          "title": "Meta、Googleが攻撃を受ける、裁判が30年前の法的保護、通信品位法第230条を迂回",
           "url": "https://reddit.com/r/business/comments/1sbudxc/meta_google_under_attack_as_court_cases_bypass/",
-          "score": 103,
+          "score": 109,
           "comments": 4
         },
         {
-          "title": "失敗への恐怖をどう克服するか？特に養うべき家族がいる場合、どうすればよいか？",
+          "title": "失敗への恐怖をどう克服するか？特に養うべき家族がいる場合？",
           "url": "https://reddit.com/r/business/comments/1scl6uq/how_do_you_get_over_the_fear_of_failing/",
           "score": 2,
           "comments": 0
@@ -791,32 +790,32 @@
         {
           "title": "OpenAI CEOサム・アルトマン、家族から性的虐待で告発される",
           "url": "https://reddit.com/r/artificial/comments/1sc3kpj/openai_ceo_sam_altman_accused_of_sexual_abuse_by/",
-          "score": 539,
+          "score": 550,
           "comments": 154
         },
         {
-          "title": "LLMの追従性が米国をイランの泥沼に引きずり込んだ経緯",
+          "title": "LLMの追従が米国をイランの泥沼に引きずり込んだ経緯",
           "url": "https://reddit.com/r/artificial/comments/1scp7zz/how_llm_sycophancy_got_the_us_into_the_iran/",
-          "score": 3,
+          "score": 5,
           "comments": 7
         },
         {
           "title": "AIが指示することから逸脱することに人々は不安を感じているのか？",
           "url": "https://reddit.com/r/artificial/comments/1sc2lip/people_anxious_about_deviating_from_what_ai_tells/",
-          "score": 83,
+          "score": 82,
           "comments": 81
-        },
-        {
-          "title": "ChatGPTはすでに私たちの考え方をあまりにも変えすぎているのか？",
-          "url": "https://reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
-          "score": 6,
-          "comments": 17
         },
         {
           "title": "どこでもClaudeを見かける",
           "url": "https://reddit.com/r/artificial/comments/1scaqpe/i_am_seeing_claude_everywhere/",
-          "score": 15,
-          "comments": 38
+          "score": 16,
+          "comments": 39
+        },
+        {
+          "title": "ChatGPTはすでに私たちの考え方をあまりにも変えすぎているのか？",
+          "url": "https://reddit.com/r/artificial/comments/1sclpti/is_chatgpt_changing_the_way_we_think_too_much/",
+          "score": 5,
+          "comments": 17
         }
       ]
     },
@@ -826,7 +825,7 @@
       "region": "グローバル",
       "items": [
         {
-          "title": "創業者へ：不明確な所有権は仕事量自体よりもストレスを生むか？（宣伝しません）",
+          "title": "創業者へ：不明確な所有権は仕事量自体よりもストレスを生み出すか？（宣伝しません）",
           "url": "https://reddit.com/r/startups/comments/1scqg7r/founders_does_unclear_ownership_create_more/",
           "score": 6,
           "comments": 2
@@ -838,7 +837,7 @@
           "comments": 1
         },
         {
-          "title": "宣伝しません - raisi、autoraise、または類似のものを使った人はいますか？",
+          "title": "宣伝しません - raisi、autoraise、または類似のものを誰か使ったことがありますか？",
           "url": "https://reddit.com/r/startups/comments/1scqzw1/i_will_not_promote_has_anyone_used_raisi/",
           "score": 2,
           "comments": 1
@@ -851,27 +850,27 @@
     "region": "グローバル（開発者）",
     "items": [
       {
-        "title": "ultraworkers/claw-code - リポジトリがついにアンロックされました。パーティーを楽しんでください！史上最速のリポジトリ",
+        "title": "ultraworkers/claw-code - リポジトリがついにロック解除されました。パーティーを楽しんでください！史上最速のリポジトリで成功へ",
         "url": "https://github.com/ultraworkers/claw-code",
-        "stars": 167507,
+        "stars": 167552,
         "language": "Rust"
       },
       {
         "title": "Gitlawb/openclaude - Open ClaudeはOpenAI、Gemini、DeepSeek、Ollama向けのオープンソースコーディングエージェントCLI",
         "url": "https://github.com/Gitlawb/openclaude",
-        "stars": 14822,
+        "stars": 14835,
         "language": "TypeScript"
       },
       {
-        "title": "claude-code-best/claude-code - オリジナル版Claude Code、実行可能、構築可能、デバッグ可能版；Typescriptの型を完全に修正；企業レベルの信頼性；安全無毒、ロックファイルの整合性を保ち、直接b可能",
+        "title": "claude-code-best/claude-code - オリジナル版Claude Code、実行可能、構築可能、デバッグ可能；Typescriptの型を完全に修正；エンタープライズ級の信頼性；安全無毒、ロックファイルはそのまま、直接b",
         "url": "https://github.com/claude-code-best/claude-code",
-        "stars": 13603,
+        "stars": 13608,
         "language": "TypeScript"
       },
       {
         "title": "openai/codex-plugin-cc - Claude CodeからCodexを使用してコードをレビューしたり、タスクを委任したりする。",
         "url": "https://github.com/openai/codex-plugin-cc",
-        "stars": 11665,
+        "stars": 11666,
         "language": "JavaScript"
       },
       {
@@ -883,31 +882,31 @@
       {
         "title": "VoltAgent/awesome-design-md - 人気ウェブサイトのデザインシステムを捉えたDESIGN.mdファイルのコレクション",
         "url": "https://github.com/VoltAgent/awesome-design-md",
-        "stars": 8749,
+        "stars": 8794,
         "language": "HTML"
       },
       {
         "title": "ChinaSiro/claude-code-sourcemap -",
         "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
-        "stars": 8380,
+        "stars": 8381,
         "language": "TypeScript"
       },
       {
-        "title": "Kuberwastaken/claurst - あなたのお気に入りのターミナルコーディングエージェントがRustで登場 & Claude Codの分解",
+        "title": "Kuberwastaken/claurst - あなたのお気に入りのターミナルコーディングエージェント、今やRustで、そしてClaude Codeの分析",
         "url": "https://github.com/Kuberwastaken/claurst",
         "stars": 8068,
         "language": "Rust"
       },
       {
-        "title": "titanwings/colleague-skill - 冷たい別れを温かいスキルに変え、デジタル生命1.0へようこそ！冷たい別れを温かいスキルに変える？それは",
+        "title": "titanwings/colleague-skill - 冷たい別れを温かいスキルに変える、デジタル生命1.0へようこそ！冷たい別れを温かいスキルに変える？それは",
         "url": "https://github.com/titanwings/colleague-skill",
-        "stars": 7228,
+        "stars": 7232,
         "language": "Python"
       },
       {
-        "title": "emdash-cms/emdash - EmDashはAstroをベースにしたフルスタックのTypeScript CMS；精神的な後継者",
+        "title": "emdash-cms/emdash - EmDashはAstroをベースにしたフルスタックのTypeScript CMSで、精神的な後継者",
         "url": "https://github.com/emdash-cms/emdash",
-        "stars": 7064,
+        "stars": 7067,
         "language": "TypeScript"
       }
     ]
@@ -916,55 +915,9 @@
     "source": "グローバルトレンド分析（AI）",
     "region": "全世界",
     "items": [],
-    "error": "Unterminated string starting at: line 95 column 9 (char 3224)"
+    "error": "Unterminated string starting at: line 105 column 9 (char 3249)"
   },
   "article_ideas": {
-    "ideas": [
-      {
-        "title": "Instagramのプライバシー強化で注目！VPNで守るあなたのデジタル安全対策【2024年版】",
-        "keyword": "VPN プライバシー, Instagram セキュリティ, デジタル安全対策, VPN おすすめ",
-        "why_now": "Instagramがティーンアカウントの保護機能を強化したことで、デジタルプライバシーと安全性への関心が高まっています。これはVPNの需要と直接結びつきます。",
-        "competition": "中",
-        "revenue_potential": "高",
-        "affiliate_tie": "VPNアフィリエイト案件",
-        "priority": "S"
-      },
-      {
-        "title": "【2024年版】LLM（大規模言語モデル）の最新活用事例10選！AIでビジネスを加速するアイデア集",
-        "keyword": "LLM 活用事例, 大規模言語モデル アイデア, AI ビジネス活用, LLM 最新",
-        "why_now": "Hacker Newsで「LLM Wiki – アイデアファイル」が注目されており、大規模言語モデルの具体的な活用法やアイデアへのニーズが非常に高いです。",
-        "competition": "中",
-        "revenue_potential": "高",
-        "affiliate_tie": "AIライティングツール、AIチャットボット、AI開発プラットフォームなどLLM関連AIツール",
-        "priority": "S"
-      },
-      {
-        "title": "【AWS障害から学ぶ】Linux 7.0/PostgreSQLのパフォーマンス問題対策と安定レンタルサーバー選び",
-        "keyword": "レンタルサーバー パフォーマンス, Linux PostgreSQL 速度, サーバー障害対策, 安定レンタルサーバー",
-        "why_now": "Hacker NewsでAWSエンジニアがLinux 7.0環境でのPostgreSQLパフォーマンス半減を報告しており、サーバーパフォーマンスの重要性が再認識されています。具体的な技術課題解決に焦点を当てることで、読者の深いニーズに応えられます。",
-        "competition": "中",
-        "revenue_potential": "高",
-        "affiliate_tie": "レンタルサーバー、VPSアフィリエイト案件",
-        "priority": "S"
-      },
-      {
-        "title": "【2024年最新】AI翻訳ツールでX(旧Twitter)の国際交流を加速！おすすめ比較と活用術",
-        "keyword": "AI翻訳ツール, X 国際交流, グローバルコミュニケーション AI, AI翻訳 おすすめ",
-        "why_now": "AI翻訳によって日米のXユーザー間でコンテンツが共有され話題になっているトレンドがあり、AI翻訳ツールの実用的な活用法への関心が高まっています。",
-        "competition": "中",
-        "revenue_potential": "中",
-        "affiliate_tie": "AI翻訳ツールの紹介、海外サービス利用のためのVPN",
-        "priority": "A"
-      },
-      {
-        "title": "【徹底解説】Microsoft Copilotはいくつある？全製品の機能比較とビジネス活用術",
-        "keyword": "Microsoft Copilot 種類, Copilot 機能比較, Microsoft AI 活用, Copilot ビジネス",
-        "why_now": "Hacker Newsで「マイクロソフトはCopilotという名前の製品をいくつ持っているのか？」という疑問が話題になっており、Microsoft Copilotの全体像や各製品の違いについて、ユーザーが情報を求めていることが伺えます。",
-        "competition": "中",
-        "revenue_potential": "中",
-        "affiliate_tie": "Copilot連携AIツール、Microsoft 365などのサブスクリプションサービス",
-        "priority": "A"
-      }
-    ]
+    "ideas": []
   }
 }
