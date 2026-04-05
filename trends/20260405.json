@@ -6,234 +6,246 @@
       "search_date": "2026年04月05日",
       "realtime_trends": [
         {
-          "topic": "AIエージェントと自動化",
-          "description": "AIエージェントが業務プロセスを自動化し、従業員の生産性を向上させているトレンド。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル",
-            "アメリカ"
-          ],
-          "category": "テック/ビジネス",
-          "buzz_level": "高",
-          "source_url": "複数の情報源",
-          "who": "企業（Microsoft, Deloitteなど）、AI開発者、スタートアップ",
-          "why": "AI技術の成熟と、生産性向上、コスト削減への需要。人間は戦略的監督と意思決定に注力。",
-          "timeline": "成長期",
-          "future": "2026年末までに多くの企業でAIエージェントが導入され、2030年には45%の組織で大規模に活用されると予測される。"
-        },
-        {
-          "topic": "垂直AI（業界特化型AI）",
-          "description": "特定の業界に特化したAIソリューションが、診断支援や治療計画など医療分野で実用化。",
+          "topic": "Google Gemma 4 (AIオープンモデル)",
+          "description": "Googleが商用利用可能なAIオープンモデル「Gemma 4」を発表。高性能からコンパクトまで4サイズ展開。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
-          "category": "テック/ビジネス",
+          "category": "テック",
           "buzz_level": "高",
-          "source_url": "複数の情報源",
-          "who": "FPT Software, Microsoft AI, ヘルスケア企業、スタートアップ",
-          "why": "汎用AIから特定の課題解決に特化することで、より高い精度と実用性を提供。医療分野での効率化と患者ケアの向上。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRZjhuVNGipa9MTdHseRwIHOwhBFAeoNJE7iZtPoLzocHayZUOiMGVeqYk2jhiLeVoxs7agIjg2EswtgSePje97PmtvtB1uprsuBUIUPvqwFVBPSZEghOdnF6OIgAthkt1lO6dUYjOGoRgaSNMtG_eiw==",
+          "who": "Google",
+          "why": "Apache 2.0ライセンスで商用利用が可能になり、開発者や企業がより自由にAIモデルを活用できるため。",
           "timeline": "成長期",
-          "future": "2026年までに医療AIは診断支援を超え、症状トリアージ、治療計画、臨床意思決定支援に拡大する。"
+          "future": "AI開発の民主化を加速し、多様なアプリケーションへのAI統合が進むと予測される。"
         },
         {
-          "topic": "ホリスティックビューティーとウェルネス",
-          "description": "美容が単なる外見だけでなく、全体的な健康、メンタルヘルス、ライフスタイルと統合されるトレンド。",
+          "topic": "AI関連ハードウェア競争",
+          "description": "AppleがNVIDIA GPUをApple Siliconで利用可能に。MetaはAIハードウェアチームを結成。",
+          "platform": "ニュース, YouTube",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "テック",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXsmavfgqKExvOaDDT47jk_Ns1OAlnYwtNPtgmfv0pN0KzLgbpeC9YD7YBFy9UqXcq4yzOPVLXdhuQ2SzxvJ7gMMNUkEKDFgzLVYJLPgJHmEGxcpfqqyvEotLn_dWK3V5Aoi2bfek==",
+          "who": "Apple, NVIDIA, Meta, Nvidia",
+          "why": "AI性能向上のためのハードウェア基盤競争が激化しており、各社が技術革新と投資を加速しているため。",
+          "timeline": "成長期",
+          "future": "AIの進化を支えるハードウェア技術のさらなる発展と、市場シェア争いが激化すると予測される。"
+        },
+        {
+          "topic": "スタートアップのAI統合と資金調達多様化",
+          "description": "スタートアップはAI統合、サイバーセキュリティ、多様な資金調達に注力。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
-          "category": "健康美容",
+          "category": "ビジネス・経済・スタートアップ",
           "buzz_level": "中",
-          "source_url": "The Skin Center by CPS, Prenuvo blog",
-          "who": "美容ブランド、ウェルネス企業、インフルエンサー、消費者",
-          "why": "健康寿命への関心の高まり、ストレス社会におけるメンタルヘルス重視、内面からの美しさへの意識変化。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZSPBUpsR1kK-lu-f0MpOTrADX0Q0ISMiSJmSEKiYsozDjvtNAKXLs74szrxdOD3LbfDtyQ8SZIX3CdzGxMzJSidVRy1isAz-8YbN-U9zM2bv81zQfeerdC3kn664WliPP3pQJPYnI72CWDa_I4hA7",
+          "who": "スタートアップ企業, VC, Crowdcube, WeFunder",
+          "why": "従来のVC投資が縮小する中、AI活用による効率化と、多様な資金調達方法で成長を目指すため。",
           "timeline": "成長期",
-          "future": "「内側からの美しさ」をサポートするサプリメントや、気分を高める製品、ストレス軽減トリートメントが増加する。"
+          "future": "AIを活用したビジネスモデルと、柔軟な資金調達がスタートアップ成功の鍵となる。"
         },
         {
-          "topic": "フィットネスにおけるリカバリーと長寿",
-          "description": "フィットネスの目標が「見た目」から「健康寿命」へとシフトし、リカバリーと再生がトレーニングの核となる。",
+          "topic": "日本経済の緩やかな回復とリスク",
+          "description": "日本経済は緩やかに持ち直し、AI関連需要が輸出を支える一方、中東情勢がリスク。",
+          "platform": "ニュース",
+          "regions": [
+            "日本"
+          ],
+          "category": "ビジネス・経済・スタートアップ",
+          "buzz_level": "中",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqx3LzPzqLXfIHkv841buia3OktbLNEJFVvHQ8Lf_ENRIEWHWJ5VLbUm4rlmTfqHvJKBBcrLxkVNr9we7t3DFfwy5N_Jw1yrX5PVqTPyXWnHG92wuYkwlIWCj1aoxyXUvYrMSY7sRns5JbR_9KsdNTJdwXSjEgjrI1w-3iPfQKFu7CdPOoKFYJGQVeb-B4xxwaNGJbx20MjCx4dltU8lK_3uRrZmgMcE4QoGzPSgLKWFboq1z1c3i",
+          "who": "日本政府, 企業, 消費者",
+          "why": "物価高対策や賃上げによる個人消費の回復、AI関連投資による企業活動の活発化。",
+          "timeline": "成長期",
+          "future": "地政学リスクの動向と国内の構造問題への対応が、今後の経済成長を左右する。"
+        },
+        {
+          "topic": "中東情勢による世界経済リスク",
+          "description": "ホルムズ海峡閉鎖懸念など、中東情勢緊迫化が原油高騰、インフレ再燃を招く。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
-          "category": "健康美容",
+          "category": "ビジネス・経済・スタートアップ",
           "buzz_level": "高",
-          "source_url": "EoS Fitness, NASM, Gold's Gym",
-          "who": "フィットネスジム、パーソナルトレーナー、ウェルネスブランド、消費者",
-          "why": "高齢化社会における健康維持への意識向上、過度なトレーニングによる疲労や怪我の回避、全体的なウェルネス重視。",
-          "timeline": "成長期",
-          "future": "マッサージチェア、サウナ、コントラストセラピーを備えたリカバリールームや、睡眠・ストレス追跡機能が普及する。"
-        },
-        {
-          "topic": "VR/ARとクロスプラットフォームゲーミング",
-          "description": "VR/AR技術がゲームプレイを革新し、異なるプラットフォーム間でのプレイが標準化される。",
-          "platform": "ニュース",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ/ゲーム",
-          "buzz_level": "中",
-          "source_url": "AimControllers, Games Gravity",
-          "who": "ゲーム開発者、PlayStation, Xbox, PCプラットフォーム、VR/ARデバイスメーカー",
-          "why": "より没入感のある体験への需要、ゲーマー間の接続性向上、技術の進化によるハードウェア性能向上。",
-          "timeline": "成長期",
-          "future": "VRヘッドセットの解像度向上と軽量化、ARによる現実世界と融合したゲーム体験が拡大する。"
-        },
-        {
-          "topic": "Instagramのプライバシー重視と安全機能",
-          "description": "Instagramがプライバシーと安全性を優先し、ティーンアカウントの保護やブロックチェーンベースのオーディエンスコントロールを導入。",
-          "platform": "Instagram",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "社会/テック",
-          "buzz_level": "中",
-          "source_url": "Female Entrepreneurs, INFLOW Network",
-          "who": "Meta (Instagram), ユーザー、スタートアップ、ブランド",
-          "why": "ティーンの安全性に関する批判への対応、倫理的なプラットフォーム運営へのシフト、ユーザーの信頼構築。",
-          "timeline": "成長期",
-          "future": "ブランドはプライバシーを重視した戦略と、より透明性の高いキャンペーンを展開する必要がある。"
-        },
-        {
-          "topic": "TikTokの「グローアップ」トレンド",
-          "description": "個人の変身（より魅力的または成功した自分になる）を「then vs now」形式で共有するトレンド。",
-          "platform": "TikTok",
-          "regions": [
-            "グローバル"
-          ],
-          "category": "エンタメ/社会",
-          "buzz_level": "高",
-          "source_url": "Startups",
-          "who": "TikTokユーザー、インフルエンサー、ブランド",
-          "why": "自己改善への関心、共感を呼ぶストーリーテリング、ビジュアルコンテンツの魅力。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMd-5XeE_ep-M-5N1z2lXfbcBCm7J6NcfFAwB7rWh-qLD2-n2995hyZDLbFq8S5ms1J6uTp_8r0-IfaV42zq5xAt7tbX4jtgMrYdZj9EzYwpmbb0-Va7_7zikmGNr49A5KdJ7oPQ==",
+          "who": "各国政府, 企業, 消費者",
+          "why": "エネルギー供給の不安定化が世界的なインフレと経済活動に深刻な影響を与えるため。",
           "timeline": "ピーク",
-          "future": "ブランドは製品のビフォーアフターを示すなど、このトレンドをマーケティングに活用できる。"
+          "future": "紛争の長期化は世界経済に大きな下振れリスクをもたらし、金融政策にも影響を与える。"
         },
         {
-          "topic": "EC・物販におけるAI活用とパーソナライゼーション",
-          "description": "EC分野でAIがコンテンツ作成、SEO最適化、顧客体験のパーソナライゼーションに活用される。",
+          "topic": "日本の「新生活需要」とタイパ商品",
+          "description": "4月の新生活で「タイパ」重視の家電や時短食品、収納家具などがECで人気。",
+          "platform": "EC・物販, ニュース",
+          "regions": [
+            "日本"
+          ],
+          "category": "EC・物販",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0p_iiOEtcDVgSWDj_-z7gxghnuj08vfPp6y7ZVA9BMIsZzivMk2eNa3pBIQywaU_9Dk4d0d4_Wx4NE29gP9_KkJA6WLnlAC2paAvR7_qJIVJoh5CC0WKSNQkkYQ==",
+          "who": "消費者 (特に共働き世帯、Z世代、ミレニアル世代), EC事業者",
+          "why": "新しい生活環境での時間節約ニーズが高く、効率的な商品が支持されているため。",
+          "timeline": "ピーク",
+          "future": "タイパ重視の傾向は継続し、より多様な時短・効率化商品が求められる。"
+        },
+        {
+          "topic": "肌ロンジェビティと細胞レベルの美容ケア",
+          "description": "肌細胞の長期的な健康と再生を支える「肌ロンジェビティ」が美容トレンド。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
-          "category": "EC・物販/テック",
+          "category": "健康・フィットネス・美容",
           "buzz_level": "中",
-          "source_url": "Hypefury, Female Entrepreneurs",
-          "who": "EC企業、マーケター、AIツール開発企業",
-          "why": "顧客エンゲージメントの向上、販売促進、運用効率化、データに基づいた意思決定の強化。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEH98vdvyiyNvB5JBkqrHc4Jf2IRCArgVuRuEJEA3gXOUFnMO5UV-qt-KQh9js4ZQyxHmW5w4CC-kXj5AL9bwFWfOShZ5LM6WhcCWYSHdPg0k11_bvXmFJjwpIsArvmGopsxKDMmHfnc4o0cUi7O15NOgBAlllb",
+          "who": "美容業界, 消費者",
+          "why": "表面的なケアから根本的な肌機能の改善へ関心が移行し、長期的な若々しさを求めるため。",
           "timeline": "成長期",
-          "future": "AIによるコンテンツ生成、顧客サポート、パーソナライズされたレコメンデーションがさらに進化し、ECの顧客体験を向上させる。"
+          "future": "アンチエイジングを超えた「肌の寿命」を延ばすアプローチが美容市場を牽引する。"
         },
         {
-          "topic": "ビジネスにおける地政学的リスクとサプライチェーン再構築",
-          "description": "地政学的危機がビジネスの主要な脅威となり、サプライチェーンの再構築（ニアショアリングなど）が進む。",
-          "platform": "ニュース",
+          "topic": "2026年4月新作ゲームリリース",
+          "description": "PS5、Switch 2、PC向けに「Darwin's Paradox」「Pokémon Champions」など新作多数。",
+          "platform": "ゲーム, YouTube",
           "regions": [
-            "グローバル",
+            "グローバル, 日本"
+          ],
+          "category": "エンタメ・ゲーム・カルチャー",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzd0SaQLKrqja9h1jRITIkoUWdbKk7On5jBPvdQ9juq2DmxlARYLvqgNVhiMBy3ZZ10AHX5OB7iHTYeff2H2xHaCIdSl-xKWdeCiUXaPJobAN51PlVt7kFPY4tp0IjTPxc833mGmKeGlubzxqSbN1CutAWuzgdu_dd9c4Ffbl04QVaAYKYM6Q0Y19yC_3uRrZmgMcE4QoGzPSgLKWFboq1z1c3i",
+          "who": "ゲーム開発会社, ゲーマー",
+          "why": "新しいゲーム体験への期待と、次世代機向けのタイトルが充実しているため。",
+          "timeline": "ピーク",
+          "future": "次世代機の普及とともに、より没入感のあるゲーム体験が提供される。"
+        },
+        {
+          "topic": "X (Twitter) 日本トレンド: #precure",
+          "description": "アニメ「プリキュア」関連ハッシュタグが日本のX（旧Twitter）でトレンド入り。",
+          "platform": "X（旧Twitter）",
+          "regions": [
+            "日本"
+          ],
+          "category": "エンタメ・ゲーム・カルチャー",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhpm1gD8z4uGiJnVSAWsg_Za60u9etnBFdt6Nbiu7-NFGS0twElumDZq2kQo6LwCixi3UMK3l0zbspmF8k6OGYFbUPFM_4Ff4idAQqamKLTbYKKOn7sH_oqQ==",
+          "who": "アニメファン, プリキュアシリーズ",
+          "why": "新シリーズの展開や関連イベント、ファンの活発な交流により常に話題となっているため。",
+          "timeline": "ピーク",
+          "future": "シリーズが続く限り、定期的にトレンド入りする人気コンテンツであり続ける。"
+        },
+        {
+          "topic": "X (Twitter) USトレンド: Presale Events",
+          "description": "米国のX（旧Twitter）で複数のプレセール関連ワードがトレンド入り。",
+          "platform": "X（旧Twitter）",
+          "regions": [
             "アメリカ"
           ],
-          "category": "ビジネス/経済",
+          "category": "ビジネス・経済・スタートアップ, その他",
           "buzz_level": "高",
-          "source_url": "Allianz.com, INSEAD Knowledge, LBMC",
-          "who": "多国籍企業、政府、サプライヤー",
-          "why": "中東での紛争、米中間の緊張、貿易政策の変更による不確実性の高まり。",
-          "timeline": "成長期",
-          "future": "企業は、より強靭で地域に根ざしたサプライチェーンを構築し、政治的矛盾に対応する戦略が必要となる。"
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN9up6_ktAutzMf0F3xDTZthOeRZnIiXVIaO5lbCG5dzKuN8bHK85HjijTlQgQPp7ZFSAJRImIi4aFi-OxTnsFlfZnEs7_K9cnemw_wPkpMQ0kqBy29sbTOtVVOVPQVO6y0H3M=",
+          "who": "投資家, プロジェクト運営者",
+          "why": "新しい仮想通貨やNFTプロジェクトの初期販売に対する関心が高く、情報が活発に共有されているため。",
+          "timeline": "ピーク",
+          "future": "仮想通貨市場の動向に左右されるが、新たなプロジェクトのローンチは継続的に話題となる。"
         },
         {
-          "topic": "健康・美容における「スキニマリズム」と「ステートメントリップ」",
-          "description": "メイクアップでは「スキニマリズム」（素肌感重視）と「ステートメントリップ」（大胆な唇）が共存するトレンド。",
+          "topic": "X (Twitter) グローバルトレンド: Arsenal (サッカー)",
+          "description": "サッカークラブ「アーセナル」に関する話題が世界のX（旧Twitter）でトレンド入り。",
+          "platform": "X（旧Twitter）",
+          "regions": [
+            "グローバル"
+          ],
+          "category": "エンタメ・ゲーム・カルチャー",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPGr39VGp3d0apnD5nv_AsGNYTKQNSBuIu-jR_erp_eDOQN-FNubKssUbnsB_tJijSynyAG9wXgN_hTArTb8s-YpyX1Dp88yvJNeAxIBtm",
+          "who": "サッカーファン, アーセナルFC",
+          "why": "試合結果、移籍情報、選手に関するニュースなど、クラブの動向が世界中のファンに注目されているため。",
+          "timeline": "ピーク",
+          "future": "主要リーグやカップ戦のシーズン中は常に高い関心を集める。"
+        },
+        {
+          "topic": "AI投資のための人員削減 (Oracle)",
+          "description": "OracleがAI投資のため最大3万人を削減。テック業界で「人からAI設備へ」のシフト。",
           "platform": "ニュース",
           "regions": [
             "グローバル"
           ],
-          "category": "健康美容",
-          "buzz_level": "中",
-          "source_url": "ELLE",
-          "who": "メイクアップアーティスト、美容ブランド、消費者",
-          "why": "「クリーンガール」 aestheticの継続と、90年代グランジグラムのような大胆な表現への回帰。",
+          "category": "テック, ビジネス・経済・スタートアップ",
+          "buzz_level": "高",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFNlOomX49HzS99442aUanEbuckJBO_0RNjEjc9ZaT7vW8g8xFTbPE0HgC2rUChMFdMlyW1PmSaQBW899JF3xedqhAPRCqgYkVKldbYiiYbAAfwSEa5jtgkvQsFLHarkQulTAUthwh5zrqiLMBTuSuHrs0tol-fg==",
+          "who": "Oracle, テック企業",
+          "why": "AI技術への大規模投資が企業の競争力維持に不可欠となり、そのためのコスト最適化が進んでいるため。",
           "timeline": "成長期",
-          "future": "スキンケア効果のあるファンデーションや、様々な色合いのリップ製品が市場に増える。"
+          "future": "AIシフトに伴う組織再編や雇用構造の変化が、今後もテック業界で加速する可能性がある。"
         }
       ],
       "country_google_trends": [
         {
           "country": "日本",
           "top_searches": [
-            "AI 活用 事例",
-            "健康寿命 伸ばす",
-            "最新 ゲーム VR",
-            "サステナブル ファッション",
-            "副業 2026"
+            "情報なし"
           ]
         },
         {
           "country": "アメリカ",
           "top_searches": [
-            "AI agents productivity",
-            "GLP-1 benefits",
-            "cross-platform gaming",
-            "economic forecast 2026",
-            "wellness tech"
+            "情報なし"
           ]
         },
         {
           "country": "韓国",
           "top_searches": [
-            "K-beauty trends 2026",
-            "AI startup investment",
-            "metaverse gaming",
-            "health and longevity",
-            "sustainable living"
+            "情報なし"
           ]
         },
         {
           "country": "インド",
           "top_searches": [
-            "AI in agriculture",
-            "fintech innovation India",
-            "e-commerce growth",
-            "health tech solutions",
-            "esports popularity"
+            "IPL 2026",
+            "prithvi shaw",
+            "kings vs capitals",
+            "bottled water",
+            "ali abbas zafar"
           ]
         },
         {
-          "country": "ヨーロッパ",
+          "country": "ドイツ",
           "top_searches": [
-            "EU AI regulation",
-            "green energy investment",
-            "digital health Europe",
-            "economic stability 2026",
-            "circular economy products"
+            "情報なし"
           ]
         }
       ],
       "overseas_products_not_in_japan": [
         {
-          "product": "エクソソーム配合スキンケア",
-          "trending_country": "グローバル（特にアメリカ、ヨーロッパ）",
-          "description": "細胞修復、再生、コラーゲン生成を促進する強力な細胞メッセンジャーであるエクソソームを配合したスキンケア製品。",
-          "source_url": "The Skin Center by CPS",
-          "why_trending": "肌の再生医療技術の進化と、より効果的なアンチエイジングソリューションへの需要。",
-          "japan_potential": "日本でも再生医療への関心が高く、高機能スキンケア市場での需要が見込まれる。"
+          "product": "Smart Plant Care Devices",
+          "trending_country": "アメリカ",
+          "description": "植物の健康管理を自動化するスマートデバイス。水やり、光、栄養などを最適化。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DRJc_oHatSDocJYc5JIQUuuU69oCUJqW7OAmcLM1tXzozJXARyVlDW5Chk5rGEkyOouaiODik8cECJSG89LN1EjVfbsAfiIuaAG_eHP3jQ_EAQMcFABQsYmy_xu07gqwvG5nrLOtkH6Zsrs8XIPxpiPDLl3v5W_NbfC8LZwxww==",
+          "why_trending": "ガーデニング愛好家や植物を育てる初心者にとって、手軽に植物の世話ができる利便性が高いため。",
+          "japan_potential": "日本でもスマートホーム市場が拡大しており、植物を育てる文化も根強いため、需要が見込まれる。"
         },
         {
-          "product": "マイクロアルゲ（微細藻類）ベースの美容液",
-          "trending_country": "グローバル（特にアメリカ、ヨーロッパ）",
-          "description": "抗酸化作用が豊富で環境に優しく、肌のブライトニングと保湿に効果的な微細藻類をベースにした美容液。",
-          "source_url": "The Skin Center by CPS",
-          "why_trending": "クリーンビューティー、サステナビリティへの意識向上と、天然由来の高機能成分への注目。",
-          "japan_potential": "日本のオーガニック・ナチュラルコスメ市場で受け入れられやすく、環境意識の高い層にアピールできる。"
+          "product": "Reusable Notebook Tablets",
+          "trending_country": "アメリカ",
+          "description": "何度も書いて消せる、環境に優しいデジタルノート。クラウド連携機能を持つものも。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DRJc_oHatSDocJYc5JIQUuuU69oCUJqW7OAmcLM1tXzozJXARyVlDW5Chk5rGEkyOouaiODik8cECJSG89LN1EjVfbsAfiIuaAG_eHP3jQ_EAQMcFABQsYmy_xu07gqwvG5nrLOtkH6Zsrs8XIPxpiPDLl3v5W_NbfC8LZwxww==",
+          "why_trending": "環境意識の高まりと、紙の消費を抑えつつ手書きの感覚を維持したいというニーズに応えるため。",
+          "japan_potential": "日本でも環境配慮型製品への関心が高く、デジタルとアナログの融合はビジネス・教育分野で需要がある。"
         },
         {
-          "product": "ポータブルEEGヘッドバンドと高度な睡眠センサー",
-          "trending_country": "グローバル（特にアメリカ、ヨーロッパ）",
-          "description": "脳波を測定し、睡眠パターンをAIで追跡・最適化するウェアラブルデバイス。",
-          "source_url": "Prenuvo blog, Gold's Gym",
-          "why_trending": "睡眠の質が健康全体に与える影響への理解が深まり、睡眠最適化への関心が高まっているため。",
-          "japan_potential": "日本のヘルスケア市場で睡眠改善へのニーズは高く、スマートデバイスとして普及の可能性がある。"
+          "product": "Organic Skincare for Men",
+          "trending_country": "アメリカ",
+          "description": "男性向けに特化したオーガニック成分配合のスキンケア製品。",
+          "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_DRJc_oHatSDocJYc5JIQUuuU69oCUJqW7OAmcLM1tXzozJXARyVlDW5Chk5rGEkyOouaiODik8cECJSG89LN1EjVfbsAfiIuaAG_eHP3jQ_EAQMcFABQsYmy_xu07gqwvG5nrLOtkH6Zsrs8XIPxpiPDLl3v5W_NbfC8LZwxww==",
+          "why_trending": "男性美容市場の成長と、肌への優しさや自然派志向の製品を求める消費者が増加しているため。",
+          "japan_potential": "日本でもメンズ美容市場は拡大傾向にあり、オーガニック製品への関心も高いため、市場開拓の余地がある。"
         }
       ]
     }
@@ -246,31 +258,7 @@
           "country": "日本",
           "videos": [
             {
-              "title": "timelesz「４分間だけ時間をください」（YouTube ver.）",
-              "channel": "timelesz",
-              "category": "音楽",
-              "views_approx": "不明"
-            },
-            {
-              "title": "＝LOVE 20thシングル『劇薬中毒』Position Shuffle ver.",
-              "channel": "＝LOVE",
-              "category": "音楽",
-              "views_approx": "不明"
-            },
-            {
-              "title": "MAZZEL / Get Up And Dance -Music Video-",
-              "channel": "MAZZEL",
-              "category": "音楽",
-              "views_approx": "不明"
-            },
-            {
-              "title": "TV anime 'ONE PIECE' opening theme song",
-              "channel": "ONE PIECE Official",
-              "category": "エンタメ",
-              "views_approx": "不明"
-            },
-            {
-              "title": "【最終話】いざ対決！ そして、\"まさかの強敵\"も…。 FRLGはじめから遊んで120分後に即対戦！",
+              "title": "【地獄耐久】 新春VIPで全キャラ倒すまで終われない配信 ４章 feat. スマブラSP",
               "channel": "不明",
               "category": "ゲーム",
               "views_approx": "不明"
@@ -282,14 +270,14 @@
           "videos": [
             {
               "title": "T.I. - Trauma Bond (Official Video)",
-              "channel": "TIVEVO",
+              "channel": "T.I.",
               "category": "音楽",
-              "views_approx": "506.6K Views"
+              "views_approx": "不明"
             },
             {
-              "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters.",
+              "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters",
               "channel": "不明",
-              "category": "エンタメ",
+              "category": "映画/エンタメ",
               "views_approx": "不明"
             },
             {
@@ -305,9 +293,9 @@
               "views_approx": "不明"
             },
             {
-              "title": "Love Insurance Kompany - Trailer | Pradeep Ranganathan | Anirudh | Vignesh Shivan | Krithi Shetty.",
+              "title": "Love Insurance Kompany - Trailer | Pradeep Ranganathan | Anirudh | Vignesh Shivan | Krithi Shetty",
               "channel": "不明",
-              "category": "エンタメ",
+              "category": "映画/エンタメ",
               "views_approx": "不明"
             }
           ]
@@ -319,31 +307,13 @@
               "title": "BTS (방탄소년단) '2.0' Official MV",
               "channel": "HYBE LABELS",
               "category": "音楽",
-              "views_approx": "15.3M Views"
+              "views_approx": "4.1百万"
             },
             {
-              "title": "AKMU - '소문의 낙원 (Paradise of Rumors)' M/V",
-              "channel": "AKMU",
+              "title": "Kep1er 케플러 l 'KILLA (Face the other me)' M/V",
+              "channel": "Kep1er",
               "category": "音楽",
-              "views_approx": "不明"
-            },
-            {
-              "title": "PLAVE '흥흥흥 (feat. SOLE)' Special Video",
-              "channel": "PLAVE",
-              "category": "音楽",
-              "views_approx": "不明"
-            },
-            {
-              "title": "마지막 영상 낋여왔습니다.",
-              "channel": "不明",
-              "category": "その他",
-              "views_approx": "不明"
-            },
-            {
-              "title": "오랜만에 탑 출격했다가 골드 이렐리아한테 1렙부터 CS 통제 당하고 오열하는 이상호..!",
-              "channel": "不明",
-              "category": "ゲーム",
-              "views_approx": "不明"
+              "views_approx": "3.2百万"
             }
           ]
         },
@@ -351,15 +321,15 @@
           "country": "インド",
           "videos": [
             {
-              "title": "Rama | Namit Malhotra's Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman.",
-              "channel": "不明",
-              "category": "音楽",
-              "views_approx": "不明"
+              "title": "Rama | Namit Malhotra's Ramayana | Nitesh Tiwari | Ranbir, Yash, Hans Zimmer & A.R. Rahman",
+              "channel": "Sony Music India",
+              "category": "映画/音楽",
+              "views_approx": "4.4百万"
             },
             {
-              "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters.",
+              "title": "Dacoit Trailer (Telugu) | Adivi Sesh | Mrunal Thakur | Anurag Kashyap | Shaneil | Apr 10 In Theaters",
               "channel": "不明",
-              "category": "エンタメ",
+              "category": "映画/エンタメ",
               "views_approx": "不明"
             },
             {
@@ -369,15 +339,15 @@
               "views_approx": "不明"
             },
             {
-              "title": "#Raushan Rohi - कमरिया प काटा | #4kvideo #रंगदारी | #Srishti Bharti | #Shivani | Maghi Rangdari Song.",
+              "title": "#Raushan Rohi - कमरिया प काटा | #4kvideo #रंगदारी | #Srishti Bharti | #Shivani | Maghi Rangdari Song",
               "channel": "不明",
               "category": "音楽",
               "views_approx": "不明"
             },
             {
-              "title": "Toaster | Official Trailer | Rajkummar Rao, Sanya Malhotra | Netflix India.",
+              "title": "Toaster | Official Trailer | Rajkummar Rao, Sanya Malhotra | Netflix India",
               "channel": "Netflix India",
-              "category": "エンタメ",
+              "category": "映画/エンタメ",
               "views_approx": "不明"
             }
           ]
@@ -389,31 +359,31 @@
               "title": "BTS (방탄소년단) '2.0' Official MV",
               "channel": "HYBE LABELS",
               "category": "音楽",
-              "views_approx": "不明"
+              "views_approx": "4.1百万"
             },
             {
-              "title": "Backrooms | Official Trailer HD | A24",
-              "channel": "A24",
-              "category": "エンタメ",
-              "views_approx": "不明"
+              "title": "Elbaph Arc Official Trailer | April 5, 2026 | ONE PIECE",
+              "channel": "ONE PIECE Official - ENG",
+              "category": "アニメ/エンタメ",
+              "views_approx": "1.8百万"
             },
             {
               "title": "Fill Them With Fear: Hero Balloon Coming Soon!",
               "channel": "不明",
-              "category": "その他",
+              "category": "ゲーム/エンタメ",
               "views_approx": "不明"
             },
             {
-              "title": "Supergirl | Official Trailer",
-              "channel": "不明",
-              "category": "エンタメ",
-              "views_approx": "不明"
+              "title": "YE - FATHER (feat. TRAVIS SCOTT)",
+              "channel": "Kanye West",
+              "category": "音楽",
+              "views_approx": "10.4百万"
             },
             {
-              "title": "Harry Potter and the Philosopher's Stone | Official Teaser | HBO Max",
-              "channel": "HBO Max",
-              "category": "エンタメ",
-              "views_approx": "不明"
+              "title": "Press This Button To Win $250,000",
+              "channel": "MrBeast Gaming",
+              "category": "エンタメ/ゲーム",
+              "views_approx": "10百万"
             }
           ]
         }
@@ -432,107 +402,275 @@
   },
   "newsapi": {
     "source": "NewsAPI",
-    "items": [],
-    "skipped": true
+    "categories": [
+      {
+        "name": "テクノロジー",
+        "items": [
+          {
+            "title": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra - The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+            "source": "The Verge",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "Karpathy shares 'LLM Knowledge Base' architecture that bypasses RAG with an evolving markdown library maintained by AI - VentureBeat",
+            "url": "https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an",
+            "source": "VentureBeat",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "This RollerCoaster Tycoon 2 Rollercoaster Is So Unfathomably Long That It Looks Like a Motherboard - IGN",
+            "url": "https://www.ign.com/articles/genius-rollercoaster-tycoon-2-player-makes-longest-rollercoaster-ever-built-manipulates-guests-into-staying-just-happy-enough-to-ride-it-for-1947-x-10-years",
+            "source": "IGN",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "Google launches Gemma 4, a new open-source model: How to try it - Mashable",
+            "url": "https://mashable.com/article/google-releases-gemma-4-open-ai-model-now-open-source-how-to-try-it",
+            "source": "Mashable",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "First Jam Kuradoberi match footage released for Guilty Gear Strive Version 2.00 - EventHubs",
+            "url": "https://www.eventhubs.com/news/2026/apr/03/jam-footage-guilty-gear/",
+            "source": "EventHubs",
+            "published": "2026-04-03"
+          }
+        ]
+      },
+      {
+        "name": "ビジネス",
+        "items": [
+          {
+            "title": "3.1 million bottles of eye drops sold at Walgreens, CVS and more are recalled. Here's what to know. - CBS News",
+            "url": "https://www.cbsnews.com/news/eye-drops-recall-3-1-million-fda-walgreens-cvs-brand-list/",
+            "source": "CBS News",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Anthropic essentially bans OpenClaw from Claude by making subscribers pay extra - The Verge",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
+            "source": "The Verge",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "Ridership Topped 200,000 on 2 Line Crosslake Connection's Opening Day - The Urbanist",
+            "url": "https://www.theurbanist.org/ridership-topped-200-000-on-2-line-crosslake-connections-opening-day/",
+            "source": "Theurbanist.org",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "Elon Musk insists banks working on SpaceX IPO must buy Grok subscriptions - Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/04/elon-musk-insists-banks-working-on-spacex-ipo-must-buy-grok-subscriptions/",
+            "source": "Ars Technica",
+            "published": "2026-04-03"
+          }
+        ]
+      },
+      {
+        "name": "サイエンス",
+        "items": [
+          {
+            "title": "NASA's Artemis II crew are quite the photographers. See what they've snapped so far - NPR",
+            "url": "https://www.npr.org/sections/the-picture-show/2026/04/03/nx-s1-5773282/artemis-ii-nasa-photos",
+            "source": "NPR",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Artemis II Astronaut Christina Koch Proclaims Herself 'Space Plumber' - OutKick",
+            "url": "https://www.outkick.com/culture/nasa-artemis-ii-astronaut-fixes-broken-toilet-orion-capsule",
+            "source": "Outkick.com",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "The Planetary Society urges Congress to reject historic cuts to NASA, again - The Planetary Society",
+            "url": "https://www.planetary.org/press-releases/the-planetary-society-urges-congress-to-reject-historic-cuts-to-nasa-again",
+            "source": "The Planetary Society",
+            "published": "2026-04-03"
+          },
+          {
+            "title": "New fossil deposits show complex animal groups predating the Cambrian - Ars Technica",
+            "url": "https://arstechnica.com/science/2026/04/new-fossil-deposits-show-complex-animal-groups-predating-the-cambrian/",
+            "source": "Ars Technica",
+            "published": "2026-04-02"
+          },
+          {
+            "title": "April full moon 2026 dazzles as 'Pink Moon' lights up skies worldwide (photos) - Space",
+            "url": "https://www.space.com/stargazing/april-full-moon-2026-spectacular-photos-pink-moon",
+            "source": "Space.com",
+            "published": "2026-04-02"
+          }
+        ]
+      },
+      {
+        "name": "エンタメ",
+        "items": [
+          {
+            "title": "Lil Yachty is going to WrestleMania, Carmelo Hayes isn’t - Cageside Seats",
+            "url": "https://www.cagesideseats.com/wwe/430784/rapper-lil-yachty-wrestlemania-42-official-sami-zayn-vs-trick-williams-carmelo-hayes-out",
+            "source": "Cageside Seats",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Jonathan Majors Falls Through Window of Daily Wire Movie Set - The Hollywood Reporter",
+            "url": "http://www.hollywoodreporter.com/movies/movie-news/jonathan-majors-falls-window-daily-wire-movie-set-1236555831/",
+            "source": "Hollywood Reporter",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Blake Lively Vows To Fight On After Baldoni Sexual Harassment Claim Dismissed - Deadline",
+            "url": "http://deadline.com/2026/04/blake-lively-vow-fight-justin-baldoni-after-lawsuit-trimmed-1236773371/",
+            "source": "Deadline",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Todd Bridges files for divorce from wife Bettijo Hirschi after 3 years - USA Today",
+            "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/04/03/todd-bridges-divorce-wife-bettijo-hirschi/89460433007/",
+            "source": "USA Today",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Pat McAfee returns to WWE as Orton’s mystery caller and punts Cody Rhodes in the balls - Cageside Seats",
+            "url": "https://www.cagesideseats.com/wwe/430790/pat-mcafee-wwe-return-orton-mystery-caller-reveal-heel-turn-promo-business-sucks-dick-kick",
+            "source": "Cageside Seats",
+            "published": "2026-04-04"
+          }
+        ]
+      },
+      {
+        "name": "総合",
+        "items": [
+          {
+            "title": "Brush fires burning in Moreno Valley and Acton area - ABC7 Los Angeles",
+            "url": "https://abc7.com/live-updates/fire-erupts-riverside-county-los-angeles-amid-windy-conditions/18836025/",
+            "source": "KABC-TV",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Geno Auriemma, Dawn Staley have heated exchange after Gamecocks upset Huskies - NBC News",
+            "url": "https://www.nbcnews.com/sports/college-basketball/geno-auriemma-dawn-staley-heated-exchange-gamecocks-upset-huskies-rcna266671",
+            "source": "NBC News",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Iran and US race to find missing American pilot downed in fighter jet - reports - bbc.com",
+            "url": "https://www.bbc.com/news/live/cm29zmpdj3vt",
+            "source": "BBC News",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "Blake Lively Vows To Fight On After Baldoni Sexual Harassment Claim Dismissed - Deadline",
+            "url": "http://deadline.com/2026/04/blake-lively-vow-fight-justin-baldoni-after-lawsuit-trimmed-1236773371/",
+            "source": "Deadline",
+            "published": "2026-04-04"
+          },
+          {
+            "title": "South Carolina smothers UConn 62-48 to advance to NCAA title game, snaps Huskies’ 54-game win streak - NBC Sports",
+            "url": "https://www.nbcsports.com/womens-college-basketball/news/south-carolina-smothers-uconn-62-48-to-advance-to-ncaa-title-game-snaps-huskies-54-game-win-streak",
+            "source": "NBCSports.com",
+            "published": "2026-04-04"
+          }
+        ]
+      }
+    ]
   },
   "rakuten": {
     "source": "楽天ランキング",
-    "items": [],
-    "skipped": true
+    "items": []
   },
   "hackernews": {
     "source": "Hacker News",
     "region": "グローバル（テック業界）",
     "items": [
       {
-        "title": "Lispを書くことはAIに耐性があり、私は悲しい",
-        "url": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
-        "score": 32,
-        "comments": 19
-      },
-      {
         "title": "コンピュータ音楽入門 [pdf]",
         "url": "https://composerprogrammer.com/introductiontocomputermusic.pdf",
-        "score": 76,
-        "comments": 19
+        "score": 85,
+        "comments": 22
       },
       {
         "title": "Show HN: GPUを構築するゲーム",
         "url": "https://jaso1024.com/mvidia/",
-        "score": 572,
-        "comments": 143
+        "score": 584,
+        "comments": 144
       },
       {
-        "title": "OpenScreenはScreen Studioのオープンソースの代替品です",
-        "url": "https://github.com/siddharthvaddem/openscreen",
-        "score": 161,
-        "comments": 25
-      },
-      {
-        "title": "若者へのアドバイス、私が自分に語る嘘 (2024年)",
-        "url": "https://jxnl.co/writing/2024/06/01/advice-to-young-people/",
-        "score": 67,
-        "comments": 16
+        "title": "Lispを書くことはAIに抵抗力があり、私は悲しい",
+        "url": "https://blog.djhaskin.com/blog/writing-lisp-is-ai-resistant-and-im-sad/",
+        "score": 48,
+        "comments": 39
       },
       {
         "title": "イッセブン",
         "url": "https://isseven.app/",
-        "score": 64,
-        "comments": 30
+        "score": 80,
+        "comments": 41
       },
       {
-        "title": "Show HN: mailtrim – Gmailの受信トレイを実際に埋めているものを見つける",
-        "url": "https://news.ycombinator.com/item?id=47645719",
-        "score": 23,
-        "comments": 11
+        "title": "OpenScreenはScreen Studioのオープンソース代替品",
+        "url": "https://github.com/siddharthvaddem/openscreen",
+        "score": 168,
+        "comments": 27
+      },
+      {
+        "title": "若者へのアドバイス、私が自分に語る嘘 (2024)",
+        "url": "https://jxnl.co/writing/2024/06/01/advice-to-young-people/",
+        "score": 75,
+        "comments": 21
+      },
+      {
+        "title": "もしブラウザがあなたのUIを構築してくれたら？",
+        "url": "https://jonno.nz/posts/what-if-your-browser-built-the-ui-for-you/",
+        "score": 10,
+        "comments": 2
       },
       {
         "title": "LLM Wiki – 「アイデアファイル」の例",
         "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-        "score": 101,
-        "comments": 24
+        "score": 117,
+        "comments": 28
       },
       {
-        "title": "マイクロソフトは「Copilot」という名前の製品をいくつ持っているのか？",
-        "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
-        "score": 486,
-        "comments": 241
-      },
-      {
-        "title": "関数型プログラミングはエージェント機能の開発を加速する",
+        "title": "関数型プログラミングはエージェント機能開発を加速する",
         "url": "https://cyrusradfar.com/thoughts/functional-programming-is-the-only-way-to-scale-with-ai",
-        "score": 29,
-        "comments": 13
+        "score": 35,
+        "comments": 20
+      },
+      {
+        "title": "音楽アーティストのファイルをコピーしたAIがそのアーティストに対して著作権侵害を主張",
+        "url": "https://twitter.com/VladTheInflator/status/2039577001531768906",
+        "score": 32,
+        "comments": 8
+      },
+      {
+        "title": "Microsoftは「Copilot」という名前の製品をいくつ持っているのか？",
+        "url": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
+        "score": 502,
+        "comments": 246
       },
       {
         "title": "AWSエンジニアがLinux 7.0でPostgreSQLのパフォーマンスが半減したと報告、修正は容易ではない可能性",
         "url": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
-        "score": 159,
-        "comments": 39
+        "score": 175,
+        "comments": 43
       },
       {
-        "title": "音楽アーティストをコピーしたAIがそのアーティストに対して著作権侵害を申し立て",
-        "url": "https://twitter.com/VladTheInflator/status/2039577001531768906",
-        "score": 14,
-        "comments": 1
-      },
-      {
-        "title": "100以上のClaudeエージェントを並行してテストするケーススタディ",
-        "url": "https://imbue.com/product/mngr_part_2/",
-        "score": 32,
-        "comments": 17
-      },
-      {
-        "title": "Show HN: オープンソースで電力不要のPCBハッカソンバッジを作りました",
+        "title": "Show HN: オープンソースで無電力のPCBハッカソンバッジを作った",
         "url": "https://github.com/KaiPereira/Overglade-Badges",
-        "score": 65,
+        "score": 71,
         "comments": 8
       },
       {
-        "title": "Show HN: Contrapunk – Rustでギター入力からリアルタイムの対位法ハーモニーを生成",
+        "title": "Show HN: Contrapunk – ギター入力からのリアルタイム対位法ハーモニー、Rustで",
         "url": "https://contrapunk.com/",
-        "score": 24,
+        "score": 28,
         "comments": 4
+      },
+      {
+        "title": "Ruckus: iOS向けRacket",
+        "url": "https://ruckus.defn.io/",
+        "score": 107,
+        "comments": 9
       }
     ]
   },
@@ -543,34 +681,34 @@
       "region": "グローバル",
       "items": [
         {
-          "title": "イランのミサイル攻撃によりバーレーンとドバイのAWSデータセンターがダウン — Amazonは複数のゾーンで「ハードダウン」状態を宣言したと報じられる",
+          "title": "イランのミサイル猛攻がバーレーンとドバイのAWSデータセンターを破壊 — Amazonは複数のゾーンで「ハードダウン」状態を宣言したと報じられる",
           "url": "https://reddit.com/r/technology/comments/1scgw7u/iranian_missile_blitz_takes_down_aws_data_centers/",
-          "score": 23130,
-          "comments": 1415
+          "score": 23681,
+          "comments": 1440
         },
         {
-          "title": "衛星会社、イラン戦争報道に役立つ画像の配信を停止、米国政府の要請を理由に",
+          "title": "衛星会社がイラン戦争報道に役立つ画像の配布を停止、米国政府の要請を引用",
           "url": "https://reddit.com/r/technology/comments/1scq59s/satellite_company_halts_distribution_of_images/",
-          "score": 2394,
-          "comments": 109
+          "score": 2743,
+          "comments": 114
         },
         {
-          "title": "メイン州、新規データセンターを禁止する初の州になろうとしている",
+          "title": "メイン州が新規データセンターを禁止する初の州になろうとしている",
           "url": "https://reddit.com/r/technology/comments/1scbh0f/maine_is_about_to_become_the_first_state_to_ban/",
-          "score": 17466,
-          "comments": 589
+          "score": 17784,
+          "comments": 591
         },
         {
-          "title": "オラクル、利益が95%急増した後、最大3万人の従業員をメールで解雇。テクノロジー企業は1日あたり約1,000人の雇用を削減",
+          "title": "Oracleは95%の利益急増後、最大3万人の従業員をメールで解雇。テクノロジー企業は1日あたり約1,000人の雇用を削減している",
           "url": "https://reddit.com/r/technology/comments/1sc8smb/oracle_fired_up_to_30000_workers_via_email_after/",
-          "score": 26371,
-          "comments": 1451
+          "score": 26713,
+          "comments": 1452
         },
         {
-          "title": "イラン、アブダビの1GWスターゲイトAIデータセンターを爆撃すると脅迫",
+          "title": "イランがアブダビの1GWスターゲイトAIデータセンターを爆撃すると脅迫",
           "url": "https://reddit.com/r/technology/comments/1sc9h3g/iran_threatens_to_bomb_1gw_stargate_ai_datacenter/",
-          "score": 5947,
-          "comments": 618
+          "score": 6011,
+          "comments": 620
         }
       ]
     },
@@ -580,22 +718,22 @@
       "region": "グローバル",
       "items": [
         {
+          "title": "米軍、イランで撃墜されたF-15の2人目の乗組員を救出：当局者",
+          "url": "https://reddit.com/r/worldnews/comments/1sctgp9/us_forces_rescue_second_crew_member_from_f15/",
+          "score": 4061,
+          "comments": 874
+        },
+        {
           "title": "ハンガリーの主要野党は、来週の選挙で勝利した場合、首相の任期を2期に制限する憲法改正に動くと述べた。これは、現職のヴィクトル・オルバンが二度と首相の座に戻ることを事実上阻止する動きとなる",
           "url": "https://reddit.com/r/worldnews/comments/1sch8f8/hungarys_main_opposition_party_has_said_it_would/",
-          "score": 14844,
-          "comments": 228
+          "score": 15295,
+          "comments": 234
         },
         {
-          "title": "米軍、イランで撃墜されたF-15から2人目の乗組員を救出：当局者",
-          "url": "https://reddit.com/r/worldnews/comments/1sctgp9/us_forces_rescue_second_crew_member_from_f15/",
-          "score": 1265,
-          "comments": 329
-        },
-        {
-          "title": "激しい銃撃戦の後、2人目のF-15E乗組員が回収されたと報告 | ワールドニュース",
+          "title": "激しい銃撃戦の後、2人目のF-15E乗組員が回収されたと報道 | 世界ニュース",
           "url": "https://reddit.com/r/worldnews/comments/1sct9tb/second_f15e_crew_member_recovered_after_heavy/",
-          "score": 1056,
-          "comments": 244
+          "score": 2061,
+          "comments": 391
         }
       ]
     },
@@ -607,26 +745,26 @@
         {
           "title": "山梨県の列車内で外国人観光客同士の喧嘩が発生",
           "url": "https://reddit.com/r/japan/comments/1scpq26/fight_breaks_out_among_foreign_tourists_on_train/",
-          "score": 70,
-          "comments": 25
+          "score": 76,
+          "comments": 26
         },
         {
-          "title": "ストレスを抱えた若者が贅沢なコンフォートフードや飲み物を求める中、日本で「罪悪感のある消費」がブームに。",
+          "title": "ストレスを抱えた若者が贅沢なコンフォートフードや飲み物を求める中、日本で「罪悪感消費」がブームに。",
           "url": "https://reddit.com/r/japan/comments/1scfuf8/guilty_consumption_booms_in_japan_as_stressed/",
-          "score": 122,
+          "score": 123,
           "comments": 16
         },
         {
           "title": "桜が少ないことは、木を健康に保つための犠牲を意味することもある",
           "url": "https://reddit.com/r/japan/comments/1sc40q6/less_sakura_sometimes_means_sacrifice_to_keep/",
-          "score": 110,
+          "score": 114,
           "comments": 8
         },
         {
-          "title": "ピザハットジャパン、国内最高級ラーメンのクリエイターと提携し、ラーメンピザを開発",
-          "url": "https://reddit.com/r/japan/comments/1sc3rtl/pizza_hut_japan_teams_up_with_creator_of_one_of/",
-          "score": 49,
-          "comments": 13
+          "title": "若者の過剰摂取が相次ぎ、警視庁が歌舞伎町の薬局に注意喚起",
+          "url": "https://reddit.com/r/japan/comments/1scue7y/tokyo_cops_raising_caution_with_kabukicho/",
+          "score": 2,
+          "comments": 0
         }
       ]
     },
@@ -636,25 +774,25 @@
       "region": "韓国",
       "items": [
         {
-          "title": "1年間韓国の果物を食べ続けた結果、季節ごとの違いがとんでもないことに — 毎月何を食べるべきか（価格付き）",
+          "title": "私は1年間韓国の果物を食べ続けたが、季節ごとの違いは驚くほどだ — 毎月何を食べるべきか（価格付き）",
           "url": "https://reddit.com/r/korea/comments/1sc4mxd/i_ate_korean_fruit_for_a_full_year_and_the/",
-          "score": 417,
+          "score": 421,
           "comments": 72
         },
         {
           "title": "これはとても美しい韓国の桜の木です。",
           "url": "https://reddit.com/r/korea/comments/1scdns5/this_is_a_very_beautiful_korean_cherry_blossom/",
-          "score": 45,
+          "score": 41,
           "comments": 1
         },
         {
           "title": "我々は蔚山岩を征服する。",
           "url": "https://reddit.com/r/korea/comments/1sbt8wo/we_conquer_ulsanbawi/",
-          "score": 366,
+          "score": 371,
           "comments": 28
         },
         {
-          "title": "実家の川辺と故郷の桜が今年はとても豊かです",
+          "title": "実家の川沿いと故郷の桜は今年とても豊かだ",
           "url": "https://reddit.com/r/korea/comments/1sc1qq9/parental_home_riverside_and_hometown_cherry/",
           "score": 95,
           "comments": 7
@@ -669,19 +807,19 @@
         {
           "title": "ルビオ氏、運河での衝突後、パナマ船籍の船を足止めした中国を「いじめ」と非難",
           "url": "https://reddit.com/r/China/comments/1scje1e/rubio_accuses_china_of_bullying_for_holding_up/",
-          "score": 122,
-          "comments": 55
+          "score": 116,
+          "comments": 56
         },
         {
           "title": "私たちのひどい医療制度...",
           "url": "https://reddit.com/r/China/comments/1scptzw/our_horrible_healthcare_system/",
-          "score": 23,
+          "score": 27,
           "comments": 24
         },
         {
           "title": "MetaがAIスタートアップを買収し取引を審査した後、中国がManus創業者に出国禁止措置",
           "url": "https://reddit.com/r/China/comments/1sc2moz/china_bans_manus_founders_from_leaving_country/",
-          "score": 162,
+          "score": 161,
           "comments": 95
         }
       ]
@@ -692,21 +830,21 @@
       "region": "欧州",
       "items": [
         {
-          "title": "セルビア情報大臣：「若者は警察が彼らを殴り、殺す権利があることを認識していない。」",
+          "title": "セルビア情報大臣：「若者は警察が彼らを殴り、殺す権利があることを知らない。」",
           "url": "https://reddit.com/r/europe/comments/1scda4h/serbian_minister_of_information_young_people_are/",
-          "score": 2792,
+          "score": 2839,
           "comments": 149
         },
         {
           "title": "EU加盟がなければ、ポーランドのGDPは現在30%低かっただろう",
           "url": "https://reddit.com/r/europe/comments/1sccuyh/without_eu_accession_polands_gdp_would_currently/",
-          "score": 2159,
-          "comments": 227
+          "score": 2192,
+          "comments": 234
         },
         {
           "title": "ヴィクトル・オルバンが後継者がハンガリーを運営するのを阻止するために仕掛けた罠",
           "url": "https://reddit.com/r/europe/comments/1scdxad/how_viktor_orbán_laid_traps_to_stop_his_successor/",
-          "score": 1782,
+          "score": 1826,
           "comments": 107
         }
       ]
@@ -717,22 +855,22 @@
       "region": "インド",
       "items": [
         {
+          "title": "カワジャ・アシフ：「コルカタに持ち込む」：パキスタン国防相カワジャ・アシフがインドに「将来の誤った冒険」での攻撃を警告",
+          "url": "https://reddit.com/r/india/comments/1scth1s/khawaja_asif_we_will_take_it_to_kolkata_pakistan/",
+          "score": 92,
+          "comments": 20
+        },
+        {
           "title": "インドで象が写真撮影のために鮮やかなピンクに塗られ、後に死亡したことに怒り — ロシア人写真家は殺害予告を明かす",
           "url": "https://reddit.com/r/india/comments/1scfspa/fury_in_india_after_elephant_is_painted_bright/",
-          "score": 344,
-          "comments": 17
+          "score": 367,
+          "comments": 20
         },
         {
-          "title": "4月10日から料金所で現金が利用不可に：支払い方法、罰金、新ルールの詳細。",
+          "title": "4月10日から料金所での現金支払いが廃止：支払い方法、罰金、新規則の詳細",
           "url": "https://reddit.com/r/india/comments/1scp3vw/cash_no_longer_accepted_on_toll_booths_from_april/",
-          "score": 85,
-          "comments": 13
-        },
-        {
-          "title": "「マハカル標準時が必要だ」：教育大臣がグリニッジ標準時の置き換えを要求",
-          "url": "https://reddit.com/r/india/comments/1scb5vu/we_need_mahakal_standard_time_education_minister/",
-          "score": 322,
-          "comments": 59
+          "score": 107,
+          "comments": 14
         }
       ]
     },
@@ -742,34 +880,34 @@
       "region": "グローバル",
       "items": [
         {
-          "title": "Amazon、イラン戦争を理由に販売者に3.5%の燃料・物流手数料を課す",
+          "title": "Amazon、イラン戦争のため出品者に3.5%の燃料・物流手数料を課す",
           "url": "https://reddit.com/r/business/comments/1scfao2/amazon_slaps_35_fuel_and_logistics_charge_on/",
-          "score": 438,
-          "comments": 24
+          "score": 466,
+          "comments": 25
         },
         {
-          "title": "Netflixは長年の値上げ分を顧客に返金しなければならない、とイタリアの裁判所が判決 | 消費者団体Movimento Consumatoriは、Netflixが現在の価格を下げなければ提訴すると述べる。",
+          "title": "Netflixは長年の値上げ分を顧客に返金しなければならない、とイタリアの裁判所が判決 | 消費者団体Movimento Consumatoriは、Netflixが現在の価格を下げなければ提訴すると述べている。",
           "url": "https://reddit.com/r/business/comments/1sci46b/netflix_must_refund_customers_for_years_of_price/",
-          "score": 287,
-          "comments": 31
+          "score": 295,
+          "comments": 32
         },
         {
-          "title": "オラクル、大規模な人員削減の最中に数千件のH-1Bビザ申請を提出",
+          "title": "Oracle、大規模レイオフ中に数千件のH-1Bビザ申請を提出",
           "url": "https://reddit.com/r/business/comments/1sbnpx1/oracle_files_thousands_of_h1b_visa_petitions_amid/",
-          "score": 693,
+          "score": 697,
           "comments": 64
         },
         {
-          "title": "Meta、Googleが攻撃を受ける、裁判が30年前の法的保護、通信品位法第230条を迂回",
+          "title": "Meta、Googleが攻撃される：裁判が30年前の法的保護、通信品位法第230条を迂回",
           "url": "https://reddit.com/r/business/comments/1sbudxc/meta_google_under_attack_as_court_cases_bypass/",
-          "score": 108,
+          "score": 106,
           "comments": 4
         },
         {
-          "title": "失敗への恐怖をどう乗り越えるか？特に養うべき家族がいる場合。",
+          "title": "失敗への恐怖をどう乗り越えるか？特に養うべき家族がいる場合？",
           "url": "https://reddit.com/r/business/comments/1scl6uq/how_do_you_get_over_the_fear_of_failing/",
           "score": 2,
-          "comments": 1
+          "comments": 2
         }
       ]
     },
@@ -781,32 +919,32 @@
         {
           "title": "OpenAI CEOサム・アルトマン、家族から性的虐待で告発される",
           "url": "https://reddit.com/r/artificial/comments/1sc3kpj/openai_ceo_sam_altman_accused_of_sexual_abuse_by/",
-          "score": 587,
-          "comments": 160
+          "score": 597,
+          "comments": 165
         },
         {
-          "title": "LLMの追従性が米国をイランの泥沼に引きずり込んだ経緯",
+          "title": "LLMの追従が米国をイランの泥沼に引きずり込んだ経緯",
           "url": "https://reddit.com/r/artificial/comments/1scp7zz/how_llm_sycophancy_got_the_us_into_the_iran/",
-          "score": 11,
-          "comments": 10
+          "score": 18,
+          "comments": 11
         },
         {
-          "title": "AIが指示することから逸脱することに不安を感じる人々？",
+          "title": "AIが指示することから逸脱することに人々は不安を感じているのか？",
           "url": "https://reddit.com/r/artificial/comments/1sc2lip/people_anxious_about_deviating_from_what_ai_tells/",
-          "score": 83,
+          "score": 86,
           "comments": 82
         },
         {
           "title": "実際の作業中にChatGPTとClaudeの制限に当たり続けた。これが最終的に使った無料のセットアップだ",
           "url": "https://reddit.com/r/artificial/comments/1sckc3j/kept_hitting_chatgpt_and_claude_limits_during/",
-          "score": 5,
+          "score": 6,
           "comments": 7
         },
         {
           "title": "どこでもClaudeを見かける",
           "url": "https://reddit.com/r/artificial/comments/1scaqpe/i_am_seeing_claude_everywhere/",
-          "score": 16,
-          "comments": 39
+          "score": 18,
+          "comments": 40
         }
       ]
     },
@@ -816,22 +954,22 @@
       "region": "グローバル",
       "items": [
         {
-          "title": "創業者へ：不明確な所有権は仕事量自体よりもストレスを生み出すか？（宣伝はしません）",
+          "title": "創業者へ：不明確な所有権は仕事量自体よりもストレスを生むか？（宣伝しません）",
           "url": "https://reddit.com/r/startups/comments/1scqg7r/founders_does_unclear_ownership_create_more/",
-          "score": 8,
+          "score": 9,
           "comments": 2
         },
         {
-          "title": "会社が409aを遡及的に変更した（宣伝はしません）",
+          "title": "会社が409aを遡及的に変更した（宣伝しません）",
           "url": "https://reddit.com/r/startups/comments/1scq8od/company_changed_409a_retroactively_i_will_not/",
-          "score": 3,
+          "score": 4,
           "comments": 1
         },
         {
-          "title": "宣伝はしません - raisi、autoraise、または類似のサービスを使った人はいますか？",
-          "url": "https://reddit.com/r/startups/comments/1scqzw1/i_will_not_promote_has_anyone_used_raisi/",
+          "title": "宣伝しません / 人を追いかけるのが本当に嫌だ。他にアイデアを検証する方法は？プロダクトマーケットフィットを得るには？",
+          "url": "https://reddit.com/r/startups/comments/1scsreq/i_will_not_promote_i_really_hate_chasing_down/",
           "score": 2,
-          "comments": 1
+          "comments": 9
         }
       ]
     }
@@ -841,63 +979,63 @@
     "region": "グローバル（開発者）",
     "items": [
       {
-        "title": "ultraworkers/claw-code - リポジトリがついにアンロックされました。パーティーを楽しんでください！史上最速のリポジトリで成功へ",
+        "title": "ultraworkers/claw-code - リポジトリがついにアンロックされた。パーティーを楽しもう！史上最速のリポジトリ",
         "url": "https://github.com/ultraworkers/claw-code",
-        "stars": 167797,
+        "stars": 167957,
         "language": "Rust"
       },
       {
-        "title": "Gitlawb/openclaude - Open ClaudeはOpenAI、Gemini、DeepSeek、Ollama向けのオープンソースのコーディングエージェントCLIです",
+        "title": "Gitlawb/openclaude - Open ClaudeはOpenAI、Gemini、DeepSeek、Ollama向けのオープンソースコーディングエージェントCLI",
         "url": "https://github.com/Gitlawb/openclaude",
-        "stars": 14948,
+        "stars": 14984,
         "language": "TypeScript"
       },
       {
-        "title": "claude-code-best/claude-code - オリジナルそのままのClaude Code、実行可能、構築可能、デバッグ可能版; Typescriptの型を完全に修正; 企業レベルの信頼性; 安全無毒、lockファイルは本物、直接b可能",
+        "title": "claude-code-best/claude-code - 原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全無毒, lock 文件保真, 可直接 b",
         "url": "https://github.com/claude-code-best/claude-code",
-        "stars": 13638,
+        "stars": 13652,
         "language": "TypeScript"
       },
       {
-        "title": "openai/codex-plugin-cc - Claude CodeからCodexを使用してコードをレビューしたり、タスクを委任したりする。",
+        "title": "openai/codex-plugin-cc - Claude CodeからCodexを使用してコードをレビューしたりタスクを委任したりする。",
         "url": "https://github.com/openai/codex-plugin-cc",
-        "stars": 11677,
+        "stars": 11683,
         "language": "JavaScript"
       },
       {
         "title": "sanbuphy/learn-coding-agent - コーディングエージェントに関する研究",
         "url": "https://github.com/sanbuphy/learn-coding-agent",
-        "stars": 11276,
+        "stars": 11279,
         "language": null
       },
       {
         "title": "VoltAgent/awesome-design-md - 人気ウェブサイトのデザインシステムを捉えたDESIGN.mdファイルのコレクション。",
         "url": "https://github.com/VoltAgent/awesome-design-md",
-        "stars": 9042,
+        "stars": 9165,
         "language": "HTML"
       },
       {
         "title": "ChinaSiro/claude-code-sourcemap -",
         "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
-        "stars": 8389,
+        "stars": 8392,
         "language": "TypeScript"
       },
       {
-        "title": "Kuberwastaken/claurst - あなたのお気に入りのターミナルコーディングエージェントがRustで登場 & Claude Codの分析",
+        "title": "Kuberwastaken/claurst - あなたのお気に入りのターミナルコーディングエージェント、今やRustで & Claude Codの分解",
         "url": "https://github.com/Kuberwastaken/claurst",
-        "stars": 8079,
+        "stars": 8083,
         "language": "Rust"
       },
       {
-        "title": "titanwings/colleague-skill - 冷たい別れを温かいスキルに変え、デジタル生命1.0へようこそ！冷たい別れを温かいスキルに変える？それは",
+        "title": "titanwings/colleague-skill - 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！冷たい別れを温かいスキルに変える？それは",
         "url": "https://github.com/titanwings/colleague-skill",
-        "stars": 7278,
+        "stars": 7301,
         "language": "Python"
       },
       {
-        "title": "emdash-cms/emdash - EmDashはAstroをベースにしたフルスタックのTypeScript CMSです。その精神的な後継者として",
+        "title": "emdash-cms/emdash - EmDashはAstroをベースにしたフルスタックTypeScript CMSであり、精神的な後継者である",
         "url": "https://github.com/emdash-cms/emdash",
-        "stars": 7098,
+        "stars": 7106,
         "language": "TypeScript"
       }
     ]
@@ -906,153 +1044,142 @@
     "source": "グローバルトレンド分析（AI）",
     "region": "全世界",
     "items": [],
-    "error": "Unterminated string starting at: line 95 column 9 (char 3235)"
+    "error": "Unterminated string starting at: line 102 column 9 (char 3248)"
   },
   "article_ideas": {
     "affiliate_ideas": [
       {
-        "title": "AIエージェントで業務を自動化！おすすめツール比較と導入事例",
-        "keyword": "AIエージェント 業務自動化 比較",
-        "why_now": "AIエージェントによる業務自動化はグローバルで最も注目されるトレンドの一つであり、日本企業でも生産性向上への関心が高い。具体的なツール比較記事はまだ少なく、今書けば検索上位を狙える可能性が高いです。",
+        "title": "Google Gemma 4徹底解説！商用利用可能な最新AIモデルの活用法とおすすめレンタルサーバー",
+        "keyword": "Google Gemma 4, Gemma 4 使い方, Gemma 4 商用利用, AIモデル レンタルサーバー",
+        "why_now": "Googleが商用利用可能な高性能AIオープンモデル「Gemma 4」を発表したばかりで、情報需要が非常に高い。AI Tools Labのレンタルサーバー比較と親和性が高い。",
         "competition": "低",
         "revenue_potential": "高",
         "best_platform": "自社サイト",
-        "platform_reason": "SEOでの集客を最大化し、AIツールのアフィリエイトリンクを設置するため。専門性の高い情報を網羅的に提供することで、信頼性を高めます。",
+        "platform_reason": "詳細な解説、比較記事はSEOで上位表示を狙いやすく、長期的なアクセスが見込めるため。レンタルサーバーや関連AIツールのASP案件に繋げやすい。",
         "priority": "S"
       },
       {
-        "title": "医療・ヘルスケア分野のAIツール最前線：診断支援から治療計画まで",
-        "keyword": "医療AI 診断支援 ツール",
-        "why_now": "垂直AI（業界特化型AI）が医療分野で実用化され始めており、専門性の高い情報ニーズがあります。競合が少ないニッチな領域で、専門家や医療関係者からの検索需要が見込めます。",
-        "competition": "低",
-        "revenue_potential": "中",
-        "best_platform": "自社サイト/note",
-        "platform_reason": "自社サイトでSEOを狙いつつ、より専門的・深掘りした内容はnoteで有料コンテンツとして販売することで、収益源を多様化できます。",
-        "priority": "A"
-      },
-      {
-        "title": "ECサイト運営者必見！AI活用で売上を伸ばすパーソナライゼーション戦略",
-        "keyword": "EC AI活用 パーソナライゼーション",
-        "why_now": "EC分野でのAI活用とパーソナライゼーションはグローバルで加速しており、日本のEC事業者も関心が高いテーマです。具体的なAIツールや導入事例を紹介することで、実践的な情報として需要があります。",
+        "title": "【2026年最新】AI開発・Gemma 4ホスティングにおすすめのレンタルサーバー比較",
+        "keyword": "AI開発 レンタルサーバー, Gemma 4 ホスティング, AIモデル サーバー比較",
+        "why_now": "Gemma 4の登場により、AIモデルのホスティング需要が高まることが予想される。Oracleの人員削減とAI投資のニュースも、AIインフラへのシフトを示唆している。",
         "competition": "中",
         "revenue_potential": "高",
         "best_platform": "自社サイト",
-        "platform_reason": "EC事業者向けのAIツール（コンテンツ作成、SEO最適化、顧客体験向上など）のアフィリエイトを多数紹介できるため、自社サイトでのSEO集客が最適です。",
+        "platform_reason": "具体的なサーバーのスペックや価格を比較する記事は、購買意欲の高いユーザーにリーチしやすく、レンタルサーバーのアフィリエイト収益に直結する。",
         "priority": "S"
       },
       {
-        "title": "Microsoft Copilot徹底解説：種類、機能、最適な選び方ガイド",
-        "keyword": "Microsoft Copilot 種類 比較",
-        "why_now": "Microsoft Copilotは認知度が高い一方で、その種類や機能の違い、自分に合った選び方について混乱しているユーザーが多いです。網羅的かつ分かりやすい解説記事は、高い検索需要が見込めます。",
-        "competition": "中",
-        "revenue_potential": "高",
+        "title": "Apple SiliconでNVIDIA GPUを活用？AI開発者のための最新ハードウェア動向とVPNの必要性",
+        "keyword": "Apple Silicon NVIDIA, AI開発 ハードウェア, ローカルAI環境, AI開発 VPN",
+        "why_now": "AppleがNVIDIA GPUをApple Siliconで利用可能にする動きやMetaのAIハードウェアチーム結成など、AI関連ハードウェアの競争が激化しており、技術的な関心が高い。",
+        "competition": "低",
+        "revenue_potential": "中",
         "best_platform": "自社サイト",
-        "platform_reason": "Microsoft 365やCopilot Pro、関連AIツールへのアフィリエイトに繋がりやすく、AI Tools Labの専門性をアピールできます。",
+        "platform_reason": "専門性の高い技術解説は、AI開発者層からの信頼を獲得し、VPNや特定のAIツールのアフィリエイトに繋がる可能性がある。",
         "priority": "A"
       },
       {
-        "title": "Screen Studioのオープンソース代替？OpenScreenレビューと動画作成AIツール比較",
-        "keyword": "OpenScreen レビュー Screen Studio 代替",
-        "why_now": "HNで注目されているOpenScreenは、Screen Studioのオープンソース代替としてコスト削減を求めるユーザーに響きます。動画作成AIツールとの比較を組み合わせることで、独自性と実用性を兼ね備えた記事になります。",
-        "competition": "低",
+        "title": "【タイパ重視】新生活をAIで効率化！おすすめの時短AIツールと活用術",
+        "keyword": "タイパ AIツール, 新生活 AI, 時短 AIツール, AI効率化",
+        "why_now": "日本の「新生活需要」と「タイパ」重視のトレンドが合致。AIツールが時間効率化に貢献できるという切り口で、幅広い層にアプローチできる。",
+        "competition": "中",
+        "revenue_potential": "高",
+        "best_platform": "自社サイト",
+        "platform_reason": "具体的なAIツールを紹介するリスト記事は、SEOで集客しやすく、複数のAIツールのアフィリエイトに繋げやすい。",
+        "priority": "A"
+      },
+      {
+        "title": "AIと著作権の最前線！音楽・画像生成AI利用で知っておくべきリスクと対策",
+        "keyword": "AI 著作権, 生成AI 著作権侵害, AIコンテンツ 法的問題",
+        "why_now": "Hacker NewsでAIによる著作権侵害の話題がトレンド入りしており、AI利用における法的なリスクへの関心が高まっている。これはAIツール利用者が直面する重要な課題。",
+        "competition": "中",
         "revenue_potential": "中",
-        "best_platform": "自社サイト/YouTube",
-        "platform_reason": "自社サイトでSEOを狙いつつ、YouTubeで実際の使用感を動画で解説することで、より多くのユーザーにリーチし、関連する動画編集ソフトやAI動画作成ツールの紹介に繋げられます。",
+        "best_platform": "note",
+        "platform_reason": "専門的な解説や最新の動向は、有料コンテンツとして価値を提供しやすい。自社サイトでもSEO記事として展開可能。",
         "priority": "B"
       }
     ],
     "ec_opportunities": [
       {
-        "product": "AI搭載型スマートリカバリーデバイス (例: 睡眠データ連動型マッサージ器、AI分析型リカバリーウェア)",
-        "trending_in": "グローバル (特にアメリカのフィットネス・ウェルネス市場)",
-        "japan_status": "認知度低い/これから来る",
-        "buy_price_range": "5,000円〜20,000円",
-        "sell_price_range": "15,000円〜50,000円",
-        "source": "Amazon.com, Kickstarter/Indiegogo (新興ブランド), Alibaba",
-        "sell_on": "Amazon.co.jp, メルカリ, 楽天 (健康寿命やリカバリーに関心のある層)",
-        "risk": "品質保証、電波法等の規制、初期投資",
-        "priority": "S"
-      },
-      {
-        "product": "メンタルヘルスサポート機能付きアロマディフューザー/スマートフレグランスデバイス",
-        "trending_in": "グローバル (ホリスティックビューティー・ウェルネス市場)",
-        "japan_status": "認知度低い/これから来る",
-        "buy_price_range": "3,000円〜10,000円",
-        "sell_price_range": "8,000円〜25,000円",
-        "source": "Amazon.com (海外インディーズブランド), Alibaba",
-        "sell_on": "Amazon.co.jp, メルカリ, 楽天 (美容・健康意識が高く、メンタルケアに関心のある層)",
-        "risk": "香りの好み、品質、模倣品",
+        "product": "AI搭載スマート収納ガジェット",
+        "trending_in": "グローバル (AI統合、スマートホームトレンド)",
+        "japan_status": "認知度低い/これから来る (日本の新生活需要とタイパ重視に合致)",
+        "buy_price_range": "$30-100",
+        "sell_price_range": "¥5,000-20,000",
+        "source": "AliExpress, Alibaba.com",
+        "sell_on": "Amazon.co.jp, メルカリ, 楽天",
+        "risk": "品質、日本語対応、日本での需要喚起",
         "priority": "A"
       },
       {
-        "product": "海外のユニークな「ステートメントリップ」コスメ (日本未発売の色、質感、限定品)",
-        "trending_in": "グローバル (特に欧米の美容トレンド)",
-        "japan_status": "未上陸/認知度低い",
-        "buy_price_range": "1,000円〜3,000円",
-        "sell_price_range": "3,000円〜8,000円",
-        "source": "Sephora (US), Cult Beauty (UK), 各ブランドの海外ECサイト",
-        "sell_on": "メルカリ, 楽天 (美容感度が高く、海外コスメに興味のある層)",
-        "risk": "肌に合わない可能性、色見本との差異、関税",
+        "product": "細胞レベル美容ケアデバイス (例: 微電流美顔器、LEDマスク)",
+        "trending_in": "グローバル (肌ロンジェビティ、アンチエイジングトレンド)",
+        "japan_status": "認知度低い/これから来る (美容大国日本で潜在需要大)",
+        "buy_price_range": "$50-200",
+        "sell_price_range": "¥10,000-50,000",
+        "source": "Alibaba.com, Amazon.com (海外ブランド)",
+        "sell_on": "Amazon.co.jp, 楽天, Qoo10",
+        "risk": "薬機法、品質保証、模倣品、効果の個人差",
         "priority": "A"
       },
       {
-        "product": "PCゲーマー向けカスタマイズ性の高いニッチな周辺機器 (例: モジュラー式ゲーミングキーボードパーツ、特定のゲーム用コントローラーアタッチメント)",
-        "trending_in": "グローバル (コアゲーマーコミュニティ)",
-        "japan_status": "認知度低い/これから来る",
-        "buy_price_range": "2,000円〜15,000円",
-        "sell_price_range": "5,000円〜30,000円",
-        "source": "AliExpress, Amazon.com (専門ショップ), ゲーミングガジェット系クラウドファンディングサイト",
-        "sell_on": "メルカリ, Amazon.co.jp (コアなPCゲーマー層)",
-        "risk": "互換性、品質、ニッチな需要",
+        "product": "タイパ重視のスマートキッチン家電 (例: 高速調理器、AIレシピ提案オーブン)",
+        "trending_in": "日本 (新生活需要、タイパ商品)",
+        "japan_status": "認知度低い/これから来る (既存品は多いが、よりスマートでタイパ特化型はまだ少ない)",
+        "buy_price_range": "$50-150",
+        "sell_price_range": "¥8,000-30,000",
+        "source": "AliExpress, Amazon.com (海外のスタートアップ製品)",
+        "sell_on": "Amazon.co.jp, 楽天, 家電量販店EC",
+        "risk": "PSEマーク、アフターサービス、競合の激化",
         "priority": "B"
       },
       {
-        "product": "AIエージェント連携型スマートホームハブ (複雑なルーティンをAIが学習・自動化)",
-        "trending_in": "グローバル (特にアメリカのスマートホーム市場)",
-        "japan_status": "認知度低い/これから来る",
-        "buy_price_range": "8,000円〜25,000円",
-        "sell_price_range": "20,000円〜60,000円",
-        "source": "Amazon.com, 新興スマートホームデバイスメーカーの海外ECサイト",
-        "sell_on": "Amazon.co.jp, 楽天 (テック好き、スマートホーム導入検討層)",
-        "risk": "日本語対応、初期設定の難易度、競合の出現",
+        "product": "AIを活用した学習・仕事効率化ガジェット (例: AIスマートペン、自動要約デバイス)",
+        "trending_in": "グローバル (AI統合、生産性向上トレンド)",
+        "japan_status": "認知度低い/これから来る (AIへの関心は高いが、具体的なガジェットはまだ少ない)",
+        "buy_price_range": "$40-120",
+        "sell_price_range": "¥7,000-25,000",
+        "source": "AliExpress, Kickstarter/Indiegogo (海外クラウドファンディング)",
+        "sell_on": "Amazon.co.jp, メルカリ, 自社EC",
+        "risk": "日本語対応、アプリ連携の安定性、需要喚起",
         "priority": "A"
       }
     ],
     "business_ideas": [
       {
-        "idea": "業界特化型AIエージェントSaaS (例: 中小企業向け経理業務自動化AIエージェント)",
-        "trend_basis": "AIエージェントと自動化、垂直AI（業界特化型AI）",
-        "target_market": "日本の中小企業、特定の士業（弁護士、税理士など）",
-        "revenue_model": "月額サブスクリプション",
+        "idea": "Gemma 4特化型クラウドホスティングサービス",
+        "trend_basis": "Google Gemma 4発表、AI関連ハードウェア競争、スタートアップのAI統合",
+        "target_market": "AI開発者、スタートアップ、中小企業",
+        "revenue_model": "サブスクリプション（従量課金＋固定費）、プレミアムサポート",
         "priority": "S"
       },
       {
-        "idea": "AIを活用したパーソナライズ型ECサイト構築・運用支援サービス",
-        "trend_basis": "EC・物販におけるAI活用とパーソナライゼーション",
-        "target_market": "中小規模のEC事業者、D2Cブランド",
-        "revenue_model": "初期費用 + 月額利用料、または成果報酬型",
-        "priority": "S"
-      },
-      {
-        "idea": "AI搭載型パーソナルウェルネスコーチングアプリ (リカバリーと長寿に特化)",
-        "trend_basis": "フィットネスにおけるリカバリーと長寿、ホリスティックビューティーとウェルネス",
-        "target_market": "健康寿命に関心のある30代以上の男女、フィットネス愛好家",
-        "revenue_model": "月額サブスクリプション (プレミアム機能、専門家連携オプション)",
+        "idea": "AI著作権リスク診断＆コンテンツ生成支援SaaS",
+        "trend_basis": "HNトレンド「音楽アーティストのファイルをコピーしたAIがそのアーティストに対して著作権侵害を主張」、AIと著作権問題の顕在化",
+        "target_market": "コンテンツクリエイター、マーケター、AIツール利用者",
+        "revenue_model": "サブスクリプション（診断回数、機能に応じたプラン）",
         "priority": "A"
       },
       {
-        "idea": "「グローアップ」を安全に共有できるプライベートSNSアプリ (AIによるコンテンツ監視・ブロックチェーンベースのプライバシー保護)",
-        "trend_basis": "Instagramのプライバシー重視と安全機能、TikTokの「グローアップ」トレンド",
-        "target_market": "若年層（ティーンエイジャー）、プライバシーを重視するSNSユーザー",
-        "revenue_model": "広告なしの有料サブスクリプション、または限定的なプレミアム機能",
+        "idea": "タイパ特化型AIツールキュレーション＆コンサルティングサービス",
+        "trend_basis": "日本の「新生活需要」とタイパ商品、スタートアップのAI統合",
+        "target_market": "新社会人、ビジネスパーソン、中小企業",
+        "revenue_model": "コンサルティング料、有料コンテンツ（note）、アフィリエイト報酬",
+        "priority": "A"
+      },
+      {
+        "idea": "AIエージェント機能開発支援プラットフォーム",
+        "trend_basis": "HNトレンド「関数型プログラミングはエージェント機能開発を加速する」、スタートアップのAI統合",
+        "target_market": "AI開発者、研究者、企業内のAIチーム",
+        "revenue_model": "プラットフォーム利用料、プレミアム機能、コンサルティング",
         "priority": "B"
       },
       {
-        "idea": "AIを活用したサプライチェーンリスク分析・最適化プラットフォーム",
-        "trend_basis": "ビジネスにおける地政学的リスクとサプライチェーン再構築",
-        "target_market": "中小規模の輸入販売業者、製造業",
-        "revenue_model": "月額サブスクリプション、コンサルティングサービス",
-        "priority": "A"
+        "idea": "AIを活用した「肌ロンジェビティ」パーソナルケアアプリ",
+        "trend_basis": "肌ロンジェビティと細胞レベルの美容ケア",
+        "target_market": "美容意識の高い層、アンチエイジングに関心のある層",
+        "revenue_model": "サブスクリプション（プレミアム機能）、提携ブランドからの広告・アフィリエイト",
+        "priority": "B"
       }
     ]
   }
