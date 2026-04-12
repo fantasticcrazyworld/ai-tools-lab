@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/</loc><lastmod>2026-03-30</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/</loc><lastmod>2026-04-12</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/server-comparison.html</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/vpn-comparison.html</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-writing-comparison.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -8,6 +8,18 @@
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-image-generators.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-code-generators.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-video-editors.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-writing-tools.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-meeting-notes.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-presentation.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/ai-translation.html</loc><lastmod>2026-03-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-005207-ai-image-generation-2026-latest-comparison.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-005324-ai-agent-recommended-comparison-2026.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-005432-ai-side-job-how-to-earn-beginner-2026.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-091139-ai-agent-comparison-2026.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-091248-ai-image-generation-free-recommended.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260412-091359-chatgpt-alternatives-comparison.html</loc><lastmod>2026-04-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260330-server-comparison.html</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/20260330-vpn-comparison.html</loc><lastmod>2026-03-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/privacy.html</loc><lastmod>2026-03-29</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://ai-tools-lab.nexusai-lab.workers.dev/about.html</loc><lastmod>2026-03-29</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
