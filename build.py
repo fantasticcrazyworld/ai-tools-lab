@@ -294,6 +294,144 @@ def build_all():
     return results
 
 
+COLORS = [
+    "linear-gradient(135deg, #059669, #10b981)",
+    "linear-gradient(135deg, #2563eb, #3b82f6)",
+    "linear-gradient(135deg, #7c3aed, #8b5cf6)",
+    "linear-gradient(135deg, #dc2626, #ef4444)",
+    "linear-gradient(135deg, #d97706, #f59e0b)",
+    "linear-gradient(135deg, #0891b2, #06b6d4)",
+    "linear-gradient(135deg, #4f46e5, #6366f1)",
+    "linear-gradient(135deg, #be185d, #ec4899)",
+]
+
+ICONS = {
+    'image': '&#127912;', 'writing': '&#9998;', 'code': '&#128187;',
+    'video': '&#127909;', 'chatgpt': '&#129302;', 'agent': '&#129302;',
+    'server': '&#128187;', 'vpn': '&#128274;', 'translation': '&#127760;',
+    'presentation': '&#128202;', 'minutes': '&#128221;', 'side-job': '&#128176;',
+}
+
+
+def build_index(results: list):
+    """全記事カードを含むindex.htmlを自動生成"""
+    # 最新順にソート（ファイル名の日付で）
+    results_sorted = sorted(results, key=lambda r: r['slug'], reverse=True)
+
+    # 重複タイトル除去（同じタイトルの古い方を除外）
+    seen_titles = set()
+    unique = []
+    for r in results_sorted:
+        title_key = re.sub(r'[0-9\s\|｜\[\]【】]', '', r['title'])[:20]
+        if title_key not in seen_titles:
+            seen_titles.add(title_key)
+            unique.append(r)
+
+    cards_html = ""
+    for i, r in enumerate(unique):
+        slug_lower = r['slug'].lower()
+        icon = '&#128196;'
+        for key, emoji in ICONS.items():
+            if key in slug_lower:
+                icon = emoji
+                break
+        color = COLORS[i % len(COLORS)]
+        tag = "NEW" if i < 5 else ""
+        tag_html = '<span class="tag tag-new">NEW</span>' if tag else ''
+        title_short = r['title'][:60] + ('...' if len(r['title']) > 60 else '')
+
+        cards_html += f"""
+        <div class="card">
+            <div class="card-thumb" style="background: {color};">{icon}</div>
+            <div class="card-body">
+                <h3><a href="{r['slug']}.html">{title_short}</a></h3>
+                {tag_html}<span class="tag">AIツール</span><span class="tag">比較</span>
+            </div>
+        </div>
+"""
+
+    index_html = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Lab | AIツール比較・レビューサイト</title>
+    <meta name="description" content="AIライティング、画像生成、コード生成、レンタルサーバー、VPNなど、最新ツールを徹底比較。料金・機能・メリット・デメリットを公式情報に基づいてレビュー。">
+    <style>
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{ font-family: 'Helvetica Neue', 'Noto Sans JP', sans-serif; color: #333; line-height: 1.8; }}
+        header {{ background: #fff; border-bottom: 2px solid #2563eb; padding: 16px 0; position: sticky; top: 0; z-index: 100; }}
+        .header-inner {{ max-width: 1100px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }}
+        .logo {{ font-size: 1.5em; font-weight: 800; color: #2563eb; text-decoration: none; }}
+        .logo span {{ color: #333; }}
+        nav a {{ color: #555; text-decoration: none; margin-left: 24px; font-size: 0.95em; font-weight: 500; }}
+        nav a:hover {{ color: #2563eb; }}
+        .hero {{ background: linear-gradient(135deg, #1e3a5f, #2563eb); color: white; padding: 60px 20px; text-align: center; }}
+        .hero h1 {{ font-size: 2em; margin-bottom: 16px; line-height: 1.4; }}
+        .hero p {{ font-size: 1.1em; opacity: 0.9; max-width: 600px; margin: 0 auto 24px; }}
+        .section {{ max-width: 1100px; margin: 0 auto; padding: 48px 20px; }}
+        .section-title {{ font-size: 1.4em; font-weight: 700; margin-bottom: 8px; color: #1e3a5f; }}
+        .section-sub {{ color: #666; margin-bottom: 24px; font-size: 0.95em; }}
+        .articles {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }}
+        .card {{ border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; transition: all 0.2s; background: #fff; }}
+        .card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.08); transform: translateY(-2px); }}
+        .card-thumb {{ height: 140px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; }}
+        .card-body {{ padding: 16px; }}
+        .card-body h3 {{ font-size: 0.95em; margin-bottom: 8px; line-height: 1.5; }}
+        .card-body h3 a {{ color: #333; text-decoration: none; }}
+        .card-body h3 a:hover {{ color: #2563eb; }}
+        .card-body p {{ font-size: 0.85em; color: #666; margin-bottom: 8px; }}
+        .tag {{ display: inline-block; background: #eef2ff; color: #2563eb; padding: 2px 10px; border-radius: 12px; font-size: 0.7em; margin-right: 4px; }}
+        .tag-new {{ background: #fef3c7; color: #92400e; }}
+        .disclosure {{ background: #f8fafc; padding: 16px 20px; text-align: center; font-size: 0.8em; color: #888; border-top: 1px solid #e2e8f0; }}
+        footer {{ background: #1e293b; color: #94a3b8; padding: 40px 20px; text-align: center; font-size: 0.85em; }}
+        footer a {{ color: #94a3b8; }}
+        @media (max-width: 768px) {{
+            .hero h1 {{ font-size: 1.5em; }}
+            .articles {{ grid-template-columns: 1fr; }}
+            nav a {{ margin-left: 16px; font-size: 0.85em; }}
+        }}
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">AI Tools <span>Lab</span></a>
+        <nav>
+            <a href="#articles">記事一覧</a>
+            <a href="about.html">サイトについて</a>
+            <a href="privacy.html">プライバシー</a>
+        </nav>
+    </div>
+</header>
+<section class="hero">
+    <h1>最新AIツールを徹底比較<br>あなたに最適なツールが見つかる</h1>
+    <p>AIツール、レンタルサーバー、VPNなど。公式情報に基づいた比較レビューをお届けします。</p>
+</section>
+<div class="disclosure">
+    ※当サイトの記事にはアフィリエイト広告が含まれます。各サービスの料金・機能は公式サイトの情報に基づいていますが、最新情報は公式サイトをご確認ください。
+</div>
+<section class="section" id="articles">
+    <h2 class="section-title">比較・レビュー記事（{len(unique)}件）</h2>
+    <p class="section-sub">公式情報に基づいた比較と、筆者の見解を明確に分けて掲載しています</p>
+    <div class="articles">
+{cards_html}
+    </div>
+</section>
+<footer>
+    <p>&copy; 2026 AI Tools Lab. All rights reserved.</p>
+    <p style="margin-top: 8px;"><a href="privacy.html">プライバシーポリシー</a> | <a href="about.html">運営者情報</a></p>
+</footer>
+</body>
+</html>"""
+
+    index_path = Path(__file__).parent / "index.html"
+    with open(index_path, 'w', encoding='utf-8') as f:
+        f.write(index_html)
+    print(f"Index updated: {len(unique)} articles")
+
+
 if __name__ == '__main__':
     results = build_all()
+    build_index(results)
     print(f"\n{len(results)}ページを生成しました")
