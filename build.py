@@ -4,7 +4,119 @@
 
 import re
 import os
+import json
+import html as html_lib
 from pathlib import Path
+
+SITE_URL = "https://ai-tools-lab.nexusai-lab.workers.dev"
+
+
+def extract_faq_from_markdown(md_text: str) -> list[dict]:
+    """記事Markdownから FAQ Q&A を抽出する。
+
+    パターン:
+      ### Q. 質問内容
+      回答内容...
+    または
+      ### Q1. 質問
+      A. 回答
+    """
+    faqs = []
+    # ### Q. ... または ### Q1. ... を検出
+    pattern = re.compile(
+        r'^#{2,4}\s*Q\d*\.?\s*(.+?)$\n+(.+?)(?=^#{2,4}\s*Q\d*\.?|^#{1,3}\s|\Z)',
+        re.MULTILINE | re.DOTALL,
+    )
+    for match in pattern.finditer(md_text):
+        question = match.group(1).strip()
+        answer_raw = match.group(2).strip()
+        # 「A.」プレフィックスを除去
+        answer = re.sub(r'^A\.?\s*', '', answer_raw, flags=re.IGNORECASE).strip()
+        # Markdown装飾を簡易除去
+        answer = re.sub(r'\*\*(.+?)\*\*', r'\1', answer)
+        answer = re.sub(r'\[(.+?)\]\(.+?\)', r'\1', answer)
+        # 回答は500文字までに制限
+        if len(answer) > 500:
+            answer = answer[:500] + '...'
+        if question and answer:
+            faqs.append({"question": question, "answer": answer})
+    return faqs[:10]  # 最大10個
+
+
+def build_jsonld_schema(title: str, description: str, date: str,
+                       slug: str, body_md: str) -> str:
+    """Article + FAQPage + BreadcrumbList の JSON-LD を生成する"""
+    article_url = f"{SITE_URL}/{slug}.html"
+
+    schemas = []
+
+    # Article schema
+    article_schema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "datePublished": date,
+        "dateModified": date,
+        "author": {
+            "@type": "Person",
+            "name": "AI Tools Lab 編集部",
+            "url": f"{SITE_URL}/author.html",
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI Tools Lab",
+            "url": SITE_URL,
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": article_url,
+        },
+    }
+    schemas.append(article_schema)
+
+    # BreadcrumbList schema
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "ホーム", "item": SITE_URL},
+            {"@type": "ListItem", "position": 2, "name": "記事一覧",
+             "item": f"{SITE_URL}/index.html#articles"},
+            {"@type": "ListItem", "position": 3, "name": title, "item": article_url},
+        ],
+    }
+    schemas.append(breadcrumb_schema)
+
+    # FAQPage schema (FAQが2個以上ある場合のみ)
+    faqs = extract_faq_from_markdown(body_md)
+    if len(faqs) >= 2:
+        faq_schema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": faq["question"],
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": faq["answer"],
+                    },
+                }
+                for faq in faqs
+            ],
+        }
+        schemas.append(faq_schema)
+
+    # 全 schema を <script> タグでまとめる
+    parts = []
+    for schema in schemas:
+        parts.append(
+            f'<script type="application/ld+json">\n'
+            f'{json.dumps(schema, ensure_ascii=False, indent=2)}\n'
+            f'</script>'
+        )
+    return '\n'.join(parts)
 
 
 def markdown_to_html(md_text: str) -> str:
@@ -139,6 +251,11 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title} | AI Tools Lab</title>
     <meta name="description" content="{description}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    {jsonld}
     <style>
         * {{ margin: 0; padding: 0; box-sizing: border-box; }}
         body {{ font-family: 'Helvetica Neue', 'Noto Sans JP', sans-serif; color: #333; line-height: 1.9; background: #f8fafc; }}
@@ -218,6 +335,14 @@ def build_article_page(md_filepath: Path, output_dir: Path, slug: str) -> dict:
     date = meta.get('date', '2026-03-28')[:10]
     category = 'AIツール'
 
+    jsonld = build_jsonld_schema(
+        title=title,
+        description=description,
+        date=date,
+        slug=slug,
+        body_md=article['body'],
+    )
+
     html = ARTICLE_TEMPLATE.format(
         title=title,
         title_short=title[:30] + '...' if len(title) > 30 else title,
@@ -225,6 +350,7 @@ def build_article_page(md_filepath: Path, output_dir: Path, slug: str) -> dict:
         date=date,
         category=category,
         content=body_html,
+        jsonld=jsonld,
     )
 
     out_path = output_dir / f"{slug}.html"
